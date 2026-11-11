@@ -1,0 +1,67 @@
+{
+  "schema": "rops.sprint/1",
+  "title": "AI x Epistemics Research Sprint",
+  "url": "https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15",
+  "start_date": "2026-11-13",
+  "end_date": "2026-11-15",
+  "deadline": {
+    "aoe": "2026-11-15T23:59:00-12:00",
+    "utc": "2026-11-16T11:59:00+00:00",
+    "local": "2026-11-16T12:59:00+01:00",
+    "tz": "Africa/Lagos"
+  },
+  "tracks": [
+    {
+      "id": "1",
+      "name": "Model Epistemics & Decision-Making Evals",
+      "questions": []
+    },
+    {
+      "id": "2",
+      "name": "Trust Infrastructure",
+      "questions": []
+    },
+    {
+      "id": "3",
+      "name": "Epistemic Products",
+      "questions": []
+    },
+    {
+      "id": "4",
+      "name": "Open Track",
+      "questions": []
+    }
+  ],
+  "rubric": [
+    "Impact Potential & Innovation",
+    "Execution Quality",
+    "Presentation & Clarity"
+  ],
+  "abstract_max_words": 150,
+  "pages": {
+    "min": 4,
+    "max": 8
+  },
+  "required_sections": [
+    "Limitations and Dual-Use / Ethical Considerations"
+  ],
+  "requires_positive_control": false,
+  "ai_policy": null,
+  "starter_repos": [
+    "https://github.com/twitter/communitynotes",
+    "https://github.com/UKGovernmentBEIS/inspect_ai"
+  ],
+  "template_url": "https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/copy?usp=sharing",
+  "prizes": [
+    1000,
+    500,
+    300,
+    100,
+    100
+  ],
+  "unknown": [
+    "abstract_max_words",
+    "requires_positive_control",
+    "ai_policy"
+  ]
+}
