@@ -43,7 +43,7 @@ above -0.30 is reported but left out of the headline claims.
 the grid continued as preregistered. Per model: qwen2.5:7b false-follow 0.516 in C1 and 0.053
 in C4 (-0.463); llama3.1:8b 0.384 in C1 and 0.100 in C4 (-0.284), which is 0.016 short.
 llama3.1:8b names both values in 15.0% of C1 replies, which lowers its false-follow baseline;
-its true-follow rate rises from 0.466 to 0.884 (+0.418).
+its true-follow rate rises from 0.466 to 0.884 (+0.419).
 
 **The change.** For every model, the per-model positive control passes when the true-follow
 rate of C4 minus that of C1 is +0.30 or higher. This replaces the per-model rule above and

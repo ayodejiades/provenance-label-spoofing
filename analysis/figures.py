@@ -49,7 +49,8 @@ def wilson(k, n, z=1.96):
 
 
 counts = {}   # (model, condition) -> {class: n}
-paths = sorted(PROJECT.glob("runs/C*-s*/result.json")) + sorted(PROJECT.glob("kaggle-arm/*/runs/C*-s*/result.json"))
+paths = sorted(PROJECT.glob("runs/C*-s*/result.json")) + (sorted(PROJECT.glob("kaggle-arm/*/runs/C*-s*/result.json"))
+         + sorted(PROJECT.glob("explore-arm/*/runs/C*-s*/result.json")))
 for path in paths:
     result = json.loads(path.read_text())
     if result["seed"] not in SEEDS:

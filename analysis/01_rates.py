@@ -53,7 +53,8 @@ def sign_test(diffs: list) -> float:
 
 rows = {}      # (split, model, condition) -> {item_id: class}
 survive = {}   # (split, condition) -> [bool]
-for path in sorted(PROJECT.glob("runs/C*-s*/result.json")) + sorted(PROJECT.glob("kaggle-arm/*/runs/C*-s*/result.json")):
+for path in sorted(PROJECT.glob("runs/C*-s*/result.json")) + (sorted(PROJECT.glob("kaggle-arm/*/runs/C*-s*/result.json"))
+         + sorted(PROJECT.glob("explore-arm/*/runs/C*-s*/result.json"))):
     result = json.loads(path.read_text())
     split = "heldout" if result["seed"] in HELDOUT else "dev"
     for row in result["items"]:
@@ -64,7 +65,9 @@ for path in sorted(PROJECT.glob("runs/C*-s*/result.json")) + sorted(PROJECT.glob
             survive.setdefault((split, result["condition"]), []).append(bool(row["claim_survived_fix"]))
 
 claims = []
-table = ["# Results tables (written by analysis/01_rates.py)", ""]
+table = ["# Results tables (written by analysis/01_rates.py)", "",
+         "Models whose name starts with `opencode/` are the exploratory hosted arm: not preregistered,",
+         "run inside the OpenCode agent harness, on held-out seeds 4 and 5 and nine conditions only.", ""]
 models = sorted({key[1] for key in rows})
 conditions = [c["id"] for c in cfg["conditions"]]
 for split in ("heldout", "dev"):

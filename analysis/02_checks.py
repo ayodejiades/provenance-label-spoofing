@@ -35,7 +35,8 @@ def false_first(item_id: str) -> bool:
 
 
 groups = {}   # (split, model, condition, kind, level) -> [0/1]
-paths = sorted(PROJECT.glob("runs/C*-s*/result.json")) + sorted(PROJECT.glob("kaggle-arm/*/runs/C*-s*/result.json"))
+paths = sorted(PROJECT.glob("runs/C*-s*/result.json")) + (sorted(PROJECT.glob("kaggle-arm/*/runs/C*-s*/result.json"))
+         + sorted(PROJECT.glob("explore-arm/*/runs/C*-s*/result.json")))
 for path in paths:
     result = json.loads(path.read_text())
     if result["condition"] not in CONDITIONS:

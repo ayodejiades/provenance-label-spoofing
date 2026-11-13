@@ -23,6 +23,17 @@ one notebook per model:
 
 `analysis/01_rates.py` reads the local runs and `kaggle-arm/*/runs/` together.
 
+An exploratory arm, not preregistered, runs nine conditions on held-out seeds 4 and 5 with two
+free hosted models reached through the OpenCode command-line agent
+(`opencode/deepseek-v4.1-flash-free`, `opencode/glm-5.3-flash-free`):
+
+    python3 harness/make_hosted_arm.py
+    rops-run grid explore-arm/<name> --provider opencode
+
+These models answer inside OpenCode's own agent prompt, so they are not tested bare. Their
+numbers are kept apart from the preregistered claims. Deviations from the preregistration are
+in `DEVIATIONS.md` (D1 and D2, both about the positive control).
+
 ## What existed before the sprint
 
 - The ResearchOps toolkit (`rops-*` commands) that runs the grid, the ledger and the checks.

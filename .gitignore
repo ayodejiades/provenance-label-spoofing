@@ -6,3 +6,6 @@
 kaggle-arm/*/harness/
 kaggle-arm/*/analysis/
 __pycache__/
+explore-arm/*/harness/
+explore-arm/*/.rops/cache/
+kaggle-arm/*/.rops/cache/
