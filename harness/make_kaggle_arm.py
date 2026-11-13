@@ -34,6 +34,9 @@ for model in cfg["kaggle_arm"]["models"]:
     staged["models"] = [model]
     staged["calls_per_run"] = cfg["items_per_run"]
     staged.pop("kaggle_arm", None)
+    override = cfg["kaggle_arm"].get("positive_control_override", {}).get(model)
+    if override:                                   # DEVIATIONS.md D1
+        staged["positive_control"] = override
     (stage / "configs").mkdir(exist_ok=True)
     (stage / "configs" / "experiment.json").write_text(json.dumps(staged, indent=2) + "\n")
     for folder in ("runs", "results"):

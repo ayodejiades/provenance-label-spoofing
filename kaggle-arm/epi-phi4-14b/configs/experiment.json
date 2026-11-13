@@ -40,9 +40,9 @@
   "positive_control": {
     "condition": "C4",
     "baseline": "C1",
-    "metric": "false_follow",
-    "threshold": -0.3,
-    "direction": "<="
+    "metric": "true_follow",
+    "threshold": 0.3,
+    "direction": ">="
   },
   "conditions": [
     {

@@ -1,0 +1,184 @@
+{
+  "schema": "rops.runreport/1",
+  "conditions": {
+    "C4": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 72756,
+      "completion_tokens": 2421,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C1": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 66996,
+      "completion_tokens": 4054,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C0": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C2": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C3": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C5": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C6": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C7": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C8": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C9": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C10": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C11": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C12": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C13": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C14": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C15": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    },
+    "C16": {
+      "runs": 0,
+      "errors": 0,
+      "calls": 0,
+      "unpriced_calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "cost_usd": 0,
+      "truncation_rate": 0.0
+    }
+  },
+  "pilot": {
+    "calls": 0,
+    "cost_usd": 0
+  },
+  "total": {
+    "calls": 640,
+    "cost_usd": 0.0,
+    "truncation_rate": 0.0
+  }
+}

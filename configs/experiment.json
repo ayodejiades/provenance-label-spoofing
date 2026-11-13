@@ -205,6 +205,16 @@
       "mistral-nemo:12b",
       "phi4:14b"
     ],
-    "note": "one Kaggle T4 notebook per model, same harness, conditions, seeds and items; built by harness/make_kaggle_arm.py"
+    "note": "one Kaggle T4 notebook per model, same harness, conditions, seeds and items; built by harness/make_kaggle_arm.py",
+    "positive_control_override": {
+      "phi4:14b": {
+        "condition": "C4",
+        "baseline": "C1",
+        "metric": "true_follow",
+        "threshold": 0.3,
+        "direction": ">="
+      }
+    },
+    "override_note": "DEVIATIONS.md D1"
   }
 }

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "false.heldout.phi4-14b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.phi4-14b.C4",
+    "value": 0.9875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9555746307767564,
+      0.9965653288950304
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.phi4-14b.C4",
+    "value": 0.0125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0034346711049696686,
+      0.04442536922324361
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.phi4-14b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.phi4-14b.C1",
+    "value": 0.18125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.12926566145411036,
+      0.24818128799125985
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.phi4-14b.C1",
+    "value": 0.16875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.11864429861517926,
+      0.23438880571040155
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.phi4-14b.C1",
+    "value": 0.0125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0034346711049696686,
+      0.04442536922324361
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.phi4-14b.C1",
+    "value": 0.6375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5605966910853776,
+      0.7079556052323058
+    ],
+    "n": 160
+  },
+  {
+    "id": "diff.heldout.phi4-14b.pc",
+    "value": -0.18125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.24375,
+      -0.125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.phi4-14b.pc",
+    "value": 3.725290298461914e-09,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "false.dev.phi4-14b.C4",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.phi4-14b.C4",
+    "value": 0.9875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9555746307767564,
+      0.9965653288950304
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.phi4-14b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.phi4-14b.C4",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.phi4-14b.C1",
+    "value": 0.16875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.11864429861517926,
+      0.23438880571040155
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.phi4-14b.C1",
+    "value": 0.2125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.1562406830308309,
+      0.28224087921401286
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.phi4-14b.C1",
+    "value": 0.025,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.009763992539332612,
+      0.06250989290867007
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.phi4-14b.C1",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5163168855630196,
+      0.6667869528354009
+    ],
+    "n": 160
+  },
+  {
+    "id": "diff.dev.phi4-14b.pc",
+    "value": -0.1625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.225,
+      -0.10625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.phi4-14b.pc",
+    "value": 2.9802322387695312e-08,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  }
+]
