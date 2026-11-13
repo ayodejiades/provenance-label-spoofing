@@ -1,33 +1,33 @@
 {
   "condition": "C4",
-  "metric": "false_follow",
+  "metric": "true_follow",
   "values": [
-    0.0,
-    0.025,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0
+    0.975,
+    0.975,
+    1.0,
+    1.0,
+    1.0,
+    0.975,
+    0.975,
+    1.0
   ],
   "missing": [],
-  "mean": 0.003125,
-  "threshold": -0.3,
-  "direction": "<=",
+  "mean": 0.9875,
+  "threshold": 0.3,
+  "direction": ">=",
   "baseline": "C1",
   "baseline_values": [
+    0.1,
+    0.3,
     0.225,
-    0.15,
+    0.225,
+    0.225,
     0.125,
     0.175,
-    0.225,
-    0.2,
-    0.175,
-    0.125
+    0.15
   ],
   "baseline_missing": [],
-  "baseline_mean": 0.175,
-  "contrast": -0.171875,
-  "pass": false
+  "baseline_mean": 0.190625,
+  "contrast": 0.796875,
+  "pass": true
 }
