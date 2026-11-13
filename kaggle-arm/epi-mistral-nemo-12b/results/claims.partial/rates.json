@@ -1,0 +1,2682 @@
+[
+  {
+    "id": "false.heldout.mistral-nemo-12b.C4",
+    "value": 0.01875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.00639685074817652,
+      0.05367011213993146
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C4",
+    "value": 0.98125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9463298878600684,
+      0.9936031492518235
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C1",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.36299098715866673,
+      0.5149397872423862
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C1",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4850602127576138,
+      0.6370090128413333
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C1",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C1",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C0",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9765538047915759,
+      0.9999999999999999
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C2",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C2",
+    "value": 0.99375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9654510139998169,
+      0.9988958682318645
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C2",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C2",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C3",
+    "value": 0.49375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4173416276515777,
+      0.5704514497885277
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C3",
+    "value": 0.50625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4295485502114723,
+      0.5826583723484223
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C3",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C3",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C5",
+    "value": 0.98125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9463298878600684,
+      0.9936031492518235
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C5",
+    "value": 0.01875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.00639685074817652,
+      0.05367011213993146
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C5",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C5",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C6",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.6119941011000939,
+      0.7542135756967471
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C6",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.24578642430325287,
+      0.38800589889990605
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C6",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C6",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C7",
+    "value": 0.10625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0674017835585787,
+      0.1635620951680551
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C7",
+    "value": 0.89375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.8364379048319449,
+      0.9325982164414214
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C7",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C7",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C8",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9765538047915759,
+      0.9999999999999999
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C9",
+    "value": 0.025,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.009763992539332612,
+      0.06250989290867007
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C9",
+    "value": 0.975,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9374901070913298,
+      0.9902360074606674
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C9",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C9",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C10",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C10",
+    "value": 0.99375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9654510139998169,
+      0.9988958682318645
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C10",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C10",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C11",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.33321304716459915,
+      0.48368311443698037
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C11",
+    "value": 0.55,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.47264168349123115,
+      0.6250136969879266
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C11",
+    "value": 0.04375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.02135161153959999,
+      0.08754304158808679
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C11",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C12",
+    "value": 0.44375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3689826937846702,
+      0.5211550031762775
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C12",
+    "value": 0.55625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.47884499682372256,
+      0.6310173062153299
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C12",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C12",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C13",
+    "value": 0.825,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.7587019750190062,
+      0.8760579980955182
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C13",
+    "value": 0.175,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.12394200190448179,
+      0.24129802498099373
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C13",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C13",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C14",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.33321304716459915,
+      0.48368311443698037
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C14",
+    "value": 0.55625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.47884499682372256,
+      0.6310173062153299
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C14",
+    "value": 0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.017297923156150346,
+      0.07938980741164174
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C15",
+    "value": 0.6625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5861852426680648,
+      0.7311947438891974
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C15",
+    "value": 0.3375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2688052561108027,
+      0.4138147573319351
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C15",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C15",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.mistral-nemo-12b.C16",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.36299098715866673,
+      0.5149397872423862
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.mistral-nemo-12b.C16",
+    "value": 0.54375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.46645022601421693,
+      0.618998231905046
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.mistral-nemo-12b.C16",
+    "value": 0.01875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.00639685074817652,
+      0.05367011213993146
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.mistral-nemo-12b.C16",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.pc",
+    "value": -0.41875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.49375,
+      -0.34375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.pc",
+    "value": 1.3552527156068805e-20,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.decoy",
+    "value": 0.05625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.11875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.decoy",
+    "value": 0.10775214433670044,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.label_frame",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.0625,
+      0.075
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.label_frame",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h1_honest",
+    "value": -0.43125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.50625,
+      -0.35
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h1_honest",
+    "value": 3.3881317890172014e-20,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h2_metadata_forgery",
+    "value": 0.54375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.46875,
+      0.625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h2_metadata_forgery",
+    "value": 1.4217166778255163e-25,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h3_tag_no_labels",
+    "value": 0.25,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.18734375000000028,
+      0.31875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h3_tag_no_labels",
+    "value": 1.368789526168257e-10,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h3_tag_vs_honest",
+    "value": 0.1,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.05625,
+      0.15
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h3_tag_vs_honest",
+    "value": 9.1552734375e-05,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h3_tag_partial",
+    "value": 0.38125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.30625,
+      0.45
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h3_tag_partial",
+    "value": 7.806255641895632e-18,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h3_prose_vs_honest",
+    "value": 0.01875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.04375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h3_prose_vs_honest",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h3_prose_partial",
+    "value": 0.21875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.15,
+      0.29375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h3_prose_partial",
+    "value": 5.2395989769138396e-08,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h4_fix_tag_vs_honest",
+    "value": -0.10625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.15625,
+      -0.0625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h4_fix_tag_vs_honest",
+    "value": 6.103515625e-05,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h4_fix_prose_vs_honest",
+    "value": -0.01875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.04375,
+      0.0
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h4_fix_prose_vs_honest",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h4_fix_tag_partial",
+    "value": -0.41875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.5,
+      -0.34375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h4_fix_tag_partial",
+    "value": 1.7326905969033968e-17,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h4_fix_prose_partial",
+    "value": -0.225,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.29375,
+      -0.1625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h4_fix_prose_partial",
+    "value": 1.7025740817189217e-09,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.h4_fix_metadata",
+    "value": -0.575,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.65625,
+      -0.49375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.h4_fix_metadata",
+    "value": 4.8467614016778965e-27,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.residual_tag_vs_honest",
+    "value": -0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.018906249999999722,
+      0.0
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.residual_tag_vs_honest",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.residual_prose_vs_honest",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.01875,
+      0.01875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.residual_prose_vs_honest",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.residual_tag_partial",
+    "value": -0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.1,
+      0.025
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.residual_tag_partial",
+    "value": 0.32693958282470703,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.residual_prose_partial",
+    "value": -0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.075,
+      0.06875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.residual_prose_partial",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.mistral-nemo-12b.residual_metadata",
+    "value": -0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.1,
+      0.025
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.mistral-nemo-12b.residual_metadata",
+    "value": 0.32693958282470703,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C4",
+    "value": 0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.017297923156150346,
+      0.07938980741164174
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C4",
+    "value": 0.9625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9206101925883583,
+      0.9827020768438497
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C1",
+    "value": 0.51875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4418022191678851,
+      0.594818548511799
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C1",
+    "value": 0.48125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.40518145148820106,
+      0.5581977808321149
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C1",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C1",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C0",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C0",
+    "value": 0.99375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9654510139998169,
+      0.9988958682318645
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C2",
+    "value": 0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.017297923156150346,
+      0.07938980741164174
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C2",
+    "value": 0.9625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9206101925883583,
+      0.9827020768438497
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C2",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C2",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C3",
+    "value": 0.48125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.40518145148820106,
+      0.5581977808321149
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C3",
+    "value": 0.51875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4418022191678851,
+      0.594818548511799
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C3",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C3",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C5",
+    "value": 0.94375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.8965638034933949,
+      0.9701276982591289
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C5",
+    "value": 0.05625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.02987230174087111,
+      0.10343619650660507
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C5",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C5",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C6",
+    "value": 0.725,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.6511504494977232,
+      0.7882987626584861
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C6",
+    "value": 0.275,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.21170123734151386,
+      0.3488495505022769
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C6",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C6",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C7",
+    "value": 0.13125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.08747283756776357,
+      0.19231873139844902
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C7",
+    "value": 0.86875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.807681268601551,
+      0.9125271624322365
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C7",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C7",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C8",
+    "value": 0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.017297923156150346,
+      0.07938980741164174
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C8",
+    "value": 0.9625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9206101925883583,
+      0.9827020768438497
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C9",
+    "value": 0.06875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.038819420893298685,
+      0.11890292247396694
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C9",
+    "value": 0.93125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.8810970775260331,
+      0.9611805791067013
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C9",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C9",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C10",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.013420516678960225,
+      0.07106029132893717
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C10",
+    "value": 0.96875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9289397086710628,
+      0.9865794833210398
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C10",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C10",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C11",
+    "value": 0.43125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.35701123574415694,
+      0.5087126160970014
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C11",
+    "value": 0.48125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.40518145148820106,
+      0.5581977808321149
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C11",
+    "value": 0.0875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.05283679337325857,
+      0.14150631767369115
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C11",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C12",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4541027203116762,
+      0.6069318924877972
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C12",
+    "value": 0.4625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3870290480404649,
+      0.5397294166001669
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C12",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C12",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C13",
+    "value": 0.88125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.8219771441326974,
+      0.9226451320208794
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C13",
+    "value": 0.11875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.07735486797912061,
+      0.1780228558673026
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C13",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C13",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C14",
+    "value": 0.43125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.35701123574415694,
+      0.5087126160970014
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C14",
+    "value": 0.48125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.40518145148820106,
+      0.5581977808321149
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C14",
+    "value": 0.0875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.05283679337325857,
+      0.14150631767369115
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C15",
+    "value": 0.775,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.7042871955845182,
+      0.8328173970508486
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C15",
+    "value": 0.225,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.16718260294915135,
+      0.29571280441548176
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C15",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C15",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.mistral-nemo-12b.C16",
+    "value": 0.54375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.46645022601421693,
+      0.618998231905046
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.mistral-nemo-12b.C16",
+    "value": 0.425,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3510434981415905,
+      0.502473431139673
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.mistral-nemo-12b.C16",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.013420516678960225,
+      0.07106029132893717
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.mistral-nemo-12b.C16",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.pc",
+    "value": -0.48125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.55625,
+      -0.4
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.pc",
+    "value": 1.3234889800848443e-23,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.decoy",
+    "value": -0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.1125,
+      0.0375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.decoy",
+    "value": 0.417692190836533,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.label_frame",
+    "value": 0.0125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.05625,
+      0.08125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.label_frame",
+    "value": 0.860050065908581,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h1_honest",
+    "value": -0.48125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.5625,
+      -0.4
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h1_honest",
+    "value": 1.4558378780933287e-22,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h2_metadata_forgery",
+    "value": 0.425,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.35,
+      0.50625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h2_metadata_forgery",
+    "value": 6.098637220230962e-20,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h3_tag_no_labels",
+    "value": 0.20625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.14375,
+      0.26875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h3_tag_no_labels",
+    "value": 1.6298145055770874e-09,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h3_tag_vs_honest",
+    "value": 0.09375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.05,
+      0.1375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h3_tag_vs_honest",
+    "value": 0.000244140625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h3_tag_partial",
+    "value": 0.35,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.28125,
+      0.41875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h3_tag_partial",
+    "value": 2.220446049250313e-16,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h3_prose_vs_honest",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.00625,
+      0.06875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h3_prose_vs_honest",
+    "value": 0.1796875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h3_prose_partial",
+    "value": 0.24375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.175,
+      0.3125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h3_prose_partial",
+    "value": 4.703906597569585e-09,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h4_fix_tag_vs_honest",
+    "value": -0.09375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.14375,
+      -0.05
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h4_fix_tag_vs_honest",
+    "value": 0.000244140625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h4_fix_prose_vs_honest",
+    "value": -0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.06875,
+      -0.0125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h4_fix_prose_vs_honest",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h4_fix_tag_partial",
+    "value": -0.45,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.525,
+      -0.375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h4_fix_tag_partial",
+    "value": 4.235164736271502e-21,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h4_fix_prose_partial",
+    "value": -0.23125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.3,
+      -0.1625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h4_fix_prose_partial",
+    "value": 4.703906597569585e-09,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.h4_fix_metadata",
+    "value": -0.5125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.5875,
+      -0.4375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.h4_fix_metadata",
+    "value": 4.963083675318166e-24,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.residual_tag_vs_honest",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.03125,
+      0.03125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.residual_tag_vs_honest",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.residual_prose_vs_honest",
+    "value": -0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.0375,
+      0.025
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.residual_prose_vs_honest",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.residual_tag_partial",
+    "value": -0.1,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.15625,
+      -0.04375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.residual_tag_partial",
+    "value": 0.001543879508972168,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.residual_prose_partial",
+    "value": 0.0125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.05625,
+      0.0875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.residual_prose_partial",
+    "value": 0.8641662404406816,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.mistral-nemo-12b.residual_metadata",
+    "value": -0.1,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.15625,
+      -0.04375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.mistral-nemo-12b.residual_metadata",
+    "value": 0.001543879508972168,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "survived_fix.dev.C10",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.dev.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.dev.C16",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.dev.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C10",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C16",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  }
+]

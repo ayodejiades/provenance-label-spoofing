@@ -1,0 +1,184 @@
+{
+  "schema": "rops.runreport/1",
+  "conditions": {
+    "C4": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 70354,
+      "completion_tokens": 2969,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C1": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 64594,
+      "completion_tokens": 2943,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C0": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 16384,
+      "completion_tokens": 2909,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C2": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 80594,
+      "completion_tokens": 3024,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C3": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 97122,
+      "completion_tokens": 3073,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C5": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 80594,
+      "completion_tokens": 3017,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C6": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 68047,
+      "completion_tokens": 2957,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C7": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 84047,
+      "completion_tokens": 3056,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C8": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 93074,
+      "completion_tokens": 2978,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C9": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 85998,
+      "completion_tokens": 3014,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C10": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 98478,
+      "completion_tokens": 2977,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C11": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 93394,
+      "completion_tokens": 2939,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C12": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 80914,
+      "completion_tokens": 3085,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C13": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 84367,
+      "completion_tokens": 3056,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C14": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 93394,
+      "completion_tokens": 2941,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C15": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 86318,
+      "completion_tokens": 3112,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C16": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 320,
+      "unpriced_calls": 0,
+      "prompt_tokens": 98798,
+      "completion_tokens": 2980,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    }
+  },
+  "pilot": {
+    "calls": 0,
+    "cost_usd": 0
+  },
+  "total": {
+    "calls": 5440,
+    "cost_usd": 0.0,
+    "truncation_rate": 0.0
+  }
+}

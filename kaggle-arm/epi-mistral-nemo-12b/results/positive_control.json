@@ -1,0 +1,33 @@
+{
+  "condition": "C4",
+  "metric": "false_follow",
+  "values": [
+    0.025,
+    0.025,
+    0.075,
+    0.025,
+    0.025,
+    0.025,
+    0.025,
+    0.0
+  ],
+  "missing": [],
+  "mean": 0.028125,
+  "threshold": -0.3,
+  "direction": "<=",
+  "baseline": "C1",
+  "baseline_values": [
+    0.6,
+    0.45,
+    0.475,
+    0.55,
+    0.45,
+    0.475,
+    0.425,
+    0.4
+  ],
+  "baseline_missing": [],
+  "baseline_mean": 0.478125,
+  "contrast": -0.45,
+  "pass": true
+}
