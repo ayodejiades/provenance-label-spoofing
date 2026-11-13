@@ -207,6 +207,20 @@
     ],
     "note": "one Kaggle T4 notebook per model, same harness, conditions, seeds and items; built by harness/make_kaggle_arm.py",
     "positive_control_override": {
+      "gemma3:12b": {
+        "condition": "C4",
+        "baseline": "C1",
+        "metric": "true_follow",
+        "threshold": 0.3,
+        "direction": ">="
+      },
+      "mistral-nemo:12b": {
+        "condition": "C4",
+        "baseline": "C1",
+        "metric": "true_follow",
+        "threshold": 0.3,
+        "direction": ">="
+      },
       "phi4:14b": {
         "condition": "C4",
         "baseline": "C1",
@@ -215,6 +229,6 @@
         "direction": ">="
       }
     },
-    "override_note": "DEVIATIONS.md D1"
+    "override_note": "DEVIATIONS.md D1 and D2"
   }
 }

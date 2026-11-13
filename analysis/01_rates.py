@@ -107,6 +107,30 @@ for split in ("heldout", "dev"):
                 cid, a, b, model, mean, lo, hi, p, ("%.4f" % adjusted[cid]) if cid in adjusted else "", n))
     table.append("")
 
+# The positive control per model, over all seeds, under the preregistered rule and under D2.
+table += ["## Positive control per model (all seeds): C4 against C1", "",
+          "| model | false-follow C1 | false-follow C4 | drop | passes preregistered rule (drop of 0.30) | true-follow C1 | true-follow C4 | rise | passes D2 (rise of 0.30) |",
+          "|---|---|---|---|---|---|---|---|---|"]
+for model in models:
+    merged = {}
+    for cond in ("C1", "C4"):
+        classes = {}
+        for split in ("heldout", "dev"):
+            classes.update(rows.get((split, model, cond), {}))
+        merged[cond] = classes
+    if not merged["C1"] or not merged["C4"]:
+        continue
+    rate = {(cond, name): sum(1 for c in merged[cond].values() if c == name) / len(merged[cond])
+            for cond in ("C1", "C4") for name in ("false", "true")}
+    drop = rate[("C4", "false")] - rate[("C1", "false")]
+    rise = rate[("C4", "true")] - rate[("C1", "true")]
+    claims.append(stats.claim("pc.%s.false_drop" % slug(model), drop, n=len(merged["C4"])))
+    claims.append(stats.claim("pc.%s.true_rise" % slug(model), rise, n=len(merged["C4"])))
+    table.append("| %s | %.3f | %.3f | %+.3f | %s | %.3f | %.3f | %+.3f | %s |" % (
+        model, rate[("C1", "false")], rate[("C4", "false")], drop, "yes" if drop <= -0.30 else "no",
+        rate[("C1", "true")], rate[("C4", "true")], rise, "yes" if rise >= 0.30 else "no"))
+table.append("")
+
 for (split, cond), flags in sorted(survive.items()):
     claims.append(stats.claim("survived_fix.%s.%s" % (split, cond), sum(flags) / len(flags), n=len(flags)))
     table.append("Forged claims left in the text after the fix, %s %s: %d of %d" % (split, cond, sum(flags), len(flags)))

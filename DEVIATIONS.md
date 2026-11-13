@@ -31,3 +31,28 @@ first C1 and C4 runs are kept as they are; the first control result is saved as
 `kaggle-arm/epi-phi4-14b/results/positive_control.first.json`. The primary metric, the
 hypotheses, the decision rule and every other condition are unchanged. Because phi4 often
 names both values, its "both" rate is reported beside its false-follow rate in every condition.
+
+## D2: the per-model positive control is judged on true-follow for every model (13 November 2026, 17:45 Lagos)
+
+Drafted by Claude; decided by Ayodeji after seeing the numbers below.
+
+**What the preregistration says.** A model whose own C4 minus C1 false-follow contrast is
+above -0.30 is reported but left out of the headline claims.
+
+**What happened.** Local arm, all eight seeds, 320 items per cell. Pooled contrast -0.373, so
+the grid continued as preregistered. Per model: qwen2.5:7b false-follow 0.516 in C1 and 0.053
+in C4 (-0.463); llama3.1:8b 0.384 in C1 and 0.100 in C4 (-0.284), which is 0.016 short.
+llama3.1:8b names both values in 15.0% of C1 replies, which lowers its false-follow baseline;
+its true-follow rate rises from 0.466 to 0.884 (+0.418).
+
+**The change.** For every model, the per-model positive control passes when the true-follow
+rate of C4 minus that of C1 is +0.30 or higher. This replaces the per-model rule above and
+makes D1's rule general. The pooled rule that gates the local grid is unchanged (it passed).
+
+**What had been seen when this was decided.** C1 and C4 for the local arm and for phi4:14b.
+No other condition's results had been read by anyone.
+
+**What a reader should know.** This is the second change to the control made after seeing
+control data, and it moves llama3.1:8b from "reported only" to "counted". Both readings are
+reported: `results/tables.md` gives each model's control under the preregistered rule and
+under D2, and any claim that depends on llama3.1:8b is marked as holding under D2 only.
