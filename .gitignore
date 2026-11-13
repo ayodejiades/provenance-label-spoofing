@@ -3,3 +3,6 @@
 .rops/guard.json
 .rops/guard-accepted.json
 .rops/guard-restored/
+kaggle-arm/*/harness/
+kaggle-arm/*/analysis/
+__pycache__/

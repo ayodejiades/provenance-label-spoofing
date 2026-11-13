@@ -14,22 +14,264 @@
     {
       "id": "1",
       "name": "Model Epistemics & Decision-Making Evals",
-      "questions": []
+      "questions": [
+        {
+          "id": "1.1",
+          "text": "Does the model understand how solid its claims are? Can you accurately measure its confidence in a decision and verify that against reality?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.2",
+          "text": "Can you measure the gap between what a model implies and what it will defend (e.g. overselling, \"flip-flopping\", misrepresented evidence)?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.3",
+          "text": "Which model behaviours matter for real decision quality, and does ranking well on an honesty benchmark predict better decision-making?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.4",
+          "text": "What does a benchmark need to stay meaningful over time? Which exploits make benchmarks gameable, and can you demonstrate and close one?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.5",
+          "text": "MisleadBench. Models can be technically accurate while leaving a false impression, and existing honesty benchmarks (MASK, DarkBench) mostly test single-turn lies.",
+          "detail": "MisleadBench. Models can be technically accurate while leaving a false impression, and existing honesty benchmarks (MASK, DarkBench) mostly test single-turn lies. Build a multi-turn benchmark that first elicits what a model implies, then challenges it to defend the claim, scoring the gap between implied and defended positions, with a question-rotation protocol so scores stay meaningful.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.6",
+          "text": "Confidence Audit. Does the model know how solid its claims are? Calibration is already measured on cleanly resolvable questions (ForecastBench, consistency checks).",
+          "detail": "Confidence Audit. Does the model know how solid its claims are? Calibration is already measured on cleanly resolvable questions (ForecastBench, consistency checks). Design a protocol that elicits a model's confidence in its own recommendations across domains where ground truth arrives later, then verify elicited confidence against outcomes.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.7",
+          "text": "FlipRate. A model that agrees with whoever pushed back last is useless for decisions.",
+          "detail": "FlipRate. A model that agrees with whoever pushed back last is useless for decisions. Single-turn agreement is already measured (SycEval, ELEPHANT). Measure flip curves: how a model's answer and stated confidence change across one, two and three escalating rebuttals, separating warranted updating from capitulation.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.8",
+          "text": "Epistemic virtue eval suite. Forethought's collective-epistemics sketches propose evaluating calibration, honest uncertainty, manipulation resistance and claim-level scoring, but no maintained suite exists.",
+          "detail": "Epistemic virtue eval suite. Forethought's collective-epistemics sketches propose evaluating calibration, honest uncertainty, manipulation resistance and claim-level scoring, but no maintained suite exists. Build them as Inspect tasks with transparent rubrics, run them across frontier models, and publish grader disagreements as part of the result.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "1.9",
+          "text": "Article 5 measurement protocol. The EU AI Act bans manipulative and deceptive AI techniques, yet regulators have no agreed test procedure.",
+          "detail": "Article 5 measurement protocol. The EU AI Act bans manipulative and deceptive AI techniques, yet regulators have no agreed test procedure. Draft a protocol mapping DarkBench and MASK-style measurements onto Article 5(1)(a) legal language, with worked examples and thresholds.",
+          "untested": false,
+          "budget": null
+        }
+      ]
     },
     {
       "id": "2",
       "name": "Trust Infrastructure",
-      "questions": []
+      "questions": [
+        {
+          "id": "2.1",
+          "text": "Which source-reliability scoring techniques are hardest to cheat and easiest to audit?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "2.2",
+          "text": "What minimal tamper-evident layer is missing from today's AI observability standards, so that records of what agents did and agreed can be audited and trusted?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "2.3",
+          "text": "When an AI system uses a reliability or provenance tool, does its behaviour and accuracy actually improve?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "2.4",
+          "text": "What fraction of a real domain's content (e.g. council minutes, health advice, financial news) can be automatically bound to checkable evidence today?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "2.5",
+          "text": "Track-Record Ledger. Pundits, forecasters and outlets make checkable public claims, but nobody keeps score in a form software can consume (Community Notes is the closest thing).",
+          "detail": "Track-Record Ledger. Pundits, forecasters and outlets make checkable public claims, but nobody keeps score in a form software can consume (Community Notes is the closest thing). Build a public API that records dated claims, resolves them against primary sources, and serves reliability summaries per source, plus a first consumer: a browser extension or feed-reader plugin showing a source's track record beside their latest claim.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "2.6",
+          "text": "Tamper-Evident Action Recorder. When an AI agent takes a consequential action, the operator's own logs are the only record, and they can be edited.",
+          "detail": "Tamper-Evident Action Recorder. When an AI agent takes a consequential action, the operator's own logs are the only record, and they can be edited. An example project here could be to build a signed, secure logging layer on the OpenTelemetry GenAI conventions so instrumented agent frameworks emit append-only, verifiable traces (Certificate Transparency is the precedent), plus a viewer for auditors.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "2.7",
+          "text": "Citation Binder. A large share of citations in papers, briefs and Wikipedia articles do not support the sentence they are attached to.",
+          "detail": "Citation Binder. A large share of citations in papers, briefs and Wikipedia articles do not support the sentence they are attached to. Build a tool that locates each cited source and verifies whether it genuinely supports the specific claim, with per-citation verdicts and quoted passages (evaluation data exists: AVeriTeC).",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "2.8",
+          "text": "Provenance Study. Everyone assumes provenance and reliability metadata will help AI systems behave better; nobody has measured it.",
+          "detail": "Provenance Study. Everyone assumes provenance and reliability metadata will help AI systems behave better; nobody has measured it. Run a controlled experiment: the same research tasks with and without machine-readable signals (C2PA manifests, track records, Community Notes context), measuring accuracy, citation quality and susceptibility to planted false sources. Users: agent-framework developers deciding whether consuming signals is worth the cost.",
+          "untested": false,
+          "budget": null
+        }
+      ]
     },
     {
       "id": "3",
       "name": "Epistemic Products",
-      "questions": []
+      "questions": [
+        {
+          "id": "3.1",
+          "text": "Does advice users act on lead to choices they later endorse, and can you measure whether there is a gap?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "3.2",
+          "text": "What does a chatbot say to someone mid-dispute, and how often does it escalate rather than de-escalate?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "3.3",
+          "text": "For a decision type (e.g. job offers, leases), does a briefing surface the considerations that actually matter, and how would you know?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "3.4",
+          "text": "When a group compares its beliefs or forecasts, does surfacing the inconsistencies and cruxes change the decision?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "3.5",
+          "text": "Dispute Escalation Benchmark. When someone describes a conflict with their landlord, employer or ex-partner, does the chatbot steer them towards repair or escalation (evidence this is a live harm)? Build realistic dispute scenarios, ask practising mediators to define graded good advice, and score frontier models after every release.",
+          "detail": "Dispute Escalation Benchmark. When someone describes a conflict with their landlord, employer or ex-partner, does the chatbot steer them towards repair or escalation (evidence this is a live harm)? Build realistic dispute scenarios, ask practising mediators to define graded good advice, and score frontier models after every release.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "3.6",
+          "text": "Decision-Brief Rubric. Use expertise in, for example, financial-guidance, careers or health charities to define a rubric, then build a grading harness scoring chatbot briefings against it.",
+          "detail": "Decision-Brief Rubric. Use expertise in, for example, financial-guidance, careers or health charities to define a rubric, then build a grading harness scoring chatbot briefings against it.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "3.7",
+          "text": "Crux Mapper. Groups argue past each other because nobody knows which factual questions actually divide them.",
+          "detail": "Crux Mapper. Groups argue past each other because nobody knows which factual questions actually divide them. Run short asynchronous AI interviews with each member, extract claims and probabilities, and render a disagreement map showing shared ground, genuine cruxes and internal inconsistencies (cf. the Habermas Machine, which drafts agreement; this maps disagreement).",
+          "untested": false,
+          "budget": null
+        }
+      ]
     },
     {
       "id": "4",
       "name": "Open Track",
-      "questions": []
+      "questions": [
+        {
+          "id": "4.1",
+          "text": "What is this field's equivalent of the QALY: a defensible, comparable unit for \"decision quality improved\"?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.2",
+          "text": "Which specific certification, budget and approval chokepoints keep official AI tools out of legislatures while staffers use personal accounts?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.3",
+          "text": "Why do institutions ignore forecasts they asked for: access and legibility, or the accountability that explicit predictions create?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.4",
+          "text": "Using only data downloadable this weekend, what can you measure about a live epistemic deployment, and what does that mean for the field?",
+          "detail": "",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.5",
+          "text": "Scenario planning on tap for resilience teams. Run hundreds of LLM narrative simulations & forecasts from a plain-language situation brief and report recurring failure points in the two-page format emergency planners already use.",
+          "detail": "Scenario planning on tap for resilience teams. Run hundreds of LLM narrative simulations & forecasts from a plain-language situation brief and report recurring failure points in the two-page format emergency planners already use.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.6",
+          "text": "Fast facilitation for communities that cannot afford a mediator. An assistant that interviews each participant asynchronously, maps where people actually agree and disagree, and drafts candidate consensus statements for human sign-off.",
+          "detail": "Fast facilitation for communities that cannot afford a mediator. An assistant that interviews each participant asynchronously, maps where people actually agree and disagree, and drafts candidate consensus statements for human sign-off.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.7",
+          "text": "QALY for epistemics. Health economics got serious when the QALY gave decision-makers one comparable unit; epistemic interventions have nothing similar, so budgets go to whatever demos well.",
+          "detail": "QALY for epistemics. Health economics got serious when the QALY gave decision-makers one comparable unit; epistemic interventions have nothing similar, so budgets go to whatever demos well. Design a candidate decision-quality metric and measurement kit, then stress-test it retroactively on documented decisions.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.8",
+          "text": "Procurement Gap Report. Legislative staff use personal AI accounts because official procurement cannot keep up.",
+          "detail": "Procurement Gap Report. Legislative staff use personal AI accounts because official procurement cannot keep up. Trace, at the document level, exactly which rules block a legislature from getting access to the best AI and decision-making tools.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.9",
+          "text": "Do their numbers match? Pair quantitative claims from parliamentary transcripts and press releases with the statistical releases they cite, flag mismatches with links to primary sources, and publish as an auditable open dataset.",
+          "detail": "Do their numbers match? Pair quantitative claims from parliamentary transcripts and press releases with the statistical releases they cite, flag mismatches with links to primary sources, and publish as an auditable open dataset.",
+          "untested": false,
+          "budget": null
+        },
+        {
+          "id": "4.10",
+          "text": "A wish registry for privacy-preserving matchmaking. Participants privately register offers and needs; an AI matcher reveals a connection only when both sides' criteria are met, with logs auditable by a neutral steward.",
+          "detail": "A wish registry for privacy-preserving matchmaking. Participants privately register offers and needs; an AI matcher reveals a connection only when both sides' criteria are met, with logs auditable by a neutral steward.",
+          "untested": false,
+          "budget": null
+        }
+      ]
     }
   ],
   "rubric": [
@@ -37,7 +279,7 @@
     "Execution Quality",
     "Presentation & Clarity"
   ],
-  "abstract_max_words": 150,
+  "abstract_max_words": 250,
   "pages": {
     "min": 4,
     "max": 8
@@ -46,7 +288,7 @@
     "Limitations and Dual-Use / Ethical Considerations"
   ],
   "requires_positive_control": false,
-  "ai_policy": null,
+  "ai_policy": "Use AI tools however they help you: to check your reasoning, find gaps in a draft, write and debug code, or help with the writing. Your team is responsible for everything in the report, and made-up results or references can disqualify a project. Judges score each report on the rubric, and a judge can decline to score one too unclear to follow.",
   "starter_repos": [
     "https://github.com/twitter/communitynotes",
     "https://github.com/UKGovernmentBEIS/inspect_ai"
@@ -60,8 +302,6 @@
     100
   ],
   "unknown": [
-    "abstract_max_words",
-    "requires_positive_control",
-    "ai_policy"
+    "requires_positive_control"
   ]
 }

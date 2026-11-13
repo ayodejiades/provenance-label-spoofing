@@ -1,0 +1,10 @@
+{
+  "total_runs": 136,
+  "calls_per_run": 80,
+  "seconds_per_call": 2.3355,
+  "hours": 7.058400000000001,
+  "where": "local",
+  "local_hours_max": 8,
+  "model_gb": 5,
+  "ram_gb": 17.18
+}
