@@ -1,0 +1,2682 @@
+[
+  {
+    "id": "false.heldout.gemma3-12b.C4",
+    "value": 0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.017297923156150346,
+      0.07938980741164174
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C4",
+    "value": 0.95625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9124569584119133,
+      0.9786483884604
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C4",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C1",
+    "value": 0.50625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4295485502114723,
+      0.5826583723484223
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C1",
+    "value": 0.48125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.40518145148820106,
+      0.5581977808321149
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C1",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C1",
+    "value": 0.0125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0034346711049696686,
+      0.04442536922324361
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C0",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C0",
+    "value": 0.99375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9654510139998169,
+      0.9988958682318645
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C2",
+    "value": 0.16875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.11864429861517926,
+      0.23438880571040155
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C2",
+    "value": 0.7375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.6643294227023095,
+      0.7995336345736892
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C2",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C2",
+    "value": 0.09375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.057638006923050156,
+      0.14891202668379425
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C3",
+    "value": 0.50625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4295485502114723,
+      0.5826583723484223
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C3",
+    "value": 0.4875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.41125569292449393,
+      0.5643304619557167
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C3",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C3",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C5",
+    "value": 0.80625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.7381261023301633,
+      0.8600131031046772
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C5",
+    "value": 0.15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.10291845641859651,
+      0.21349388022730018
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C5",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C5",
+    "value": 0.04375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.02135161153959999,
+      0.08754304158808679
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C6",
+    "value": 0.575,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4975265688603269,
+      0.6489565018584094
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C6",
+    "value": 0.425,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3510434981415905,
+      0.502473431139673
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C6",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C6",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C7",
+    "value": 0.23125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.17268348889490964,
+      0.3024188410296182
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C7",
+    "value": 0.6625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5861852426680648,
+      0.7311947438891974
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C7",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C7",
+    "value": 0.10625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0674017835585787,
+      0.1635620951680551
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C8",
+    "value": 0.10625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0674017835585787,
+      0.1635620951680551
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C8",
+    "value": 0.7875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.7177591207859872,
+      0.8437593169691691
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C8",
+    "value": 0.10625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0674017835585787,
+      0.1635620951680551
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C9",
+    "value": 0.25625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.19487420270247674,
+      0.3290558174616299
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C9",
+    "value": 0.6625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5861852426680648,
+      0.7311947438891974
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C9",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C9",
+    "value": 0.08125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.048095814664668564,
+      0.13404037382238645
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C10",
+    "value": 0.075,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.04342099683621071,
+      0.1265082690909496
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C10",
+    "value": 0.8375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.7725474698100725,
+      0.8866263484242414
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C10",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C10",
+    "value": 0.0875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.05283679337325857,
+      0.14150631767369115
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C11",
+    "value": 0.2875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.22300116776323264,
+      0.3619634652003475
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C11",
+    "value": 0.3375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2688052561108027,
+      0.4138147573319351
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C11",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C11",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3037432320467991,
+      0.4521183167553069
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C12",
+    "value": 0.3625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.29204439476769417,
+      0.4394033089146224
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C12",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.33321304716459915,
+      0.48368311443698037
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C12",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C12",
+    "value": 0.23125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.17268348889490964,
+      0.3024188410296182
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C13",
+    "value": 0.55625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.47884499682372256,
+      0.6310173062153299
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C13",
+    "value": 0.26875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2060754993122257,
+      0.3422683659716703
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C13",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C13",
+    "value": 0.175,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.12394200190448179,
+      0.24129802498099373
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C14",
+    "value": 0.2875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.22300116776323264,
+      0.3619634652003475
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C14",
+    "value": 0.3375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2688052561108027,
+      0.4138147573319351
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C14",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3037432320467991,
+      0.4521183167553069
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C15",
+    "value": 0.525,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4479466069870812,
+      0.6008810832524976
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C15",
+    "value": 0.3,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2343636394597468,
+      0.3750148386236227
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C15",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C15",
+    "value": 0.175,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.12394200190448179,
+      0.24129802498099373
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.heldout.gemma3-12b.C16",
+    "value": 0.35625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2862145686431437,
+      0.43302621247927814
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.heldout.gemma3-12b.C16",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3037432320467991,
+      0.4521183167553069
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.heldout.gemma3-12b.C16",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.heldout.gemma3-12b.C16",
+    "value": 0.26875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2060754993122257,
+      0.3422683659716703
+    ],
+    "n": 160
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.pc",
+    "value": -0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.54375,
+      -0.39375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.pc",
+    "value": 5.293955920339377e-23,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.decoy",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.04375,
+      0.04375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.decoy",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.label_frame",
+    "value": -0.14375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.20625,
+      -0.0875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.label_frame",
+    "value": 5.647540092468262e-06,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h1_honest",
+    "value": -0.3375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.4125,
+      -0.2625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h1_honest",
+    "value": 1.2212453270876722e-15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h2_metadata_forgery",
+    "value": 0.3,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.23125,
+      0.36875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h2_metadata_forgery",
+    "value": 9.059419880941277e-13,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h3_tag_no_labels",
+    "value": 0.06875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.025,
+      0.11875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h3_tag_no_labels",
+    "value": 0.0147705078125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h3_tag_vs_honest",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0125,
+      0.1125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h3_tag_vs_honest",
+    "value": 0.021270751953125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h3_tag_partial",
+    "value": 0.19375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.125,
+      0.25625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h3_tag_partial",
+    "value": 5.541369318962097e-08,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h3_prose_vs_honest",
+    "value": 0.0875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0375,
+      0.1375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h3_prose_vs_honest",
+    "value": 0.003936767578125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h3_prose_partial",
+    "value": 0.1625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.10625,
+      0.21875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h3_prose_partial",
+    "value": 1.7881393432617188e-07,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h4_fix_tag_vs_honest",
+    "value": -0.125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.18125,
+      -0.06875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h4_fix_tag_vs_honest",
+    "value": 0.00014352798461914062,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h4_fix_prose_vs_honest",
+    "value": -0.18125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.24375,
+      -0.125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h4_fix_prose_vs_honest",
+    "value": 2.9802322387695312e-08,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h4_fix_tag_partial",
+    "value": -0.26875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.3375,
+      -0.2
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h4_fix_tag_partial",
+    "value": 2.0463630789890885e-12,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h4_fix_prose_partial",
+    "value": -0.16875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.23125,
+      -0.1125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h4_fix_prose_partial",
+    "value": 5.587935447692871e-07,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.h4_fix_metadata",
+    "value": -0.51875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.59375,
+      -0.44375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.h4_fix_metadata",
+    "value": 2.481541837659083e-24,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.residual_tag_vs_honest",
+    "value": -0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.10625,
+      -0.025
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.residual_tag_vs_honest",
+    "value": 0.00634765625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.residual_prose_vs_honest",
+    "value": -0.09375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.14375,
+      -0.05
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.residual_prose_vs_honest",
+    "value": 0.000274658203125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.residual_tag_partial",
+    "value": -0.075,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.13125,
+      -0.025
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.residual_tag_partial",
+    "value": 0.007537841796875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.residual_prose_partial",
+    "value": -0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.0625,
+      0.04375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.residual_prose_partial",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.heldout.gemma3-12b.residual_metadata",
+    "value": -0.075,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.13125,
+      -0.025
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.heldout.gemma3-12b.residual_metadata",
+    "value": 0.007537841796875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "false.dev.gemma3-12b.C4",
+    "value": 0.05625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.02987230174087111,
+      0.10343619650660507
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C4",
+    "value": 0.94375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.8965638034933949,
+      0.9701276982591289
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C4",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C1",
+    "value": 0.4625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3870290480404649,
+      0.5397294166001669
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C1",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4541027203116762,
+      0.6069318924877972
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C1",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C1",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C0",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.9765538047915759,
+      0.9999999999999999
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C0",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C2",
+    "value": 0.15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.10291845641859651,
+      0.21349388022730018
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C2",
+    "value": 0.78125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.7110129877074003,
+      0.8382985274878614
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C2",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C2",
+    "value": 0.06875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.038819420893298685,
+      0.11890292247396694
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C3",
+    "value": 0.44375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3689826937846702,
+      0.5211550031762775
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C3",
+    "value": 0.55625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.47884499682372256,
+      0.6310173062153299
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C3",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C3",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C5",
+    "value": 0.7375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.6643294227023095,
+      0.7995336345736892
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C5",
+    "value": 0.15625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.10813126405666038,
+      0.22048799514913106
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C5",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C5",
+    "value": 0.10625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0674017835585787,
+      0.1635620951680551
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C6",
+    "value": 0.575,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.4975265688603269,
+      0.6489565018584094
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C6",
+    "value": 0.41875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.34508783908376733,
+      0.4962221676376016
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C6",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C6",
+    "value": 0.00625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0011041317681355044,
+      0.03454898600018308
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C7",
+    "value": 0.2625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.20046636542631086,
+      0.3356705772976905
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C7",
+    "value": 0.65625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5797679016579738,
+      0.7254051623393938
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C7",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C7",
+    "value": 0.08125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.048095814664668564,
+      0.13404037382238645
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C8",
+    "value": 0.1125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.07235633851844109,
+      0.17081446276808743
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C8",
+    "value": 0.8375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.7725474698100725,
+      0.8866263484242414
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C8",
+    "value": 0.05,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.02555059646538802,
+      0.09555097922219347
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C9",
+    "value": 0.25625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.19487420270247674,
+      0.3290558174616299
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C9",
+    "value": 0.7125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.6380365347996525,
+      0.7769988322367675
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C9",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C9",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.013420516678960225,
+      0.07106029132893717
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C10",
+    "value": 0.09375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.057638006923050156,
+      0.14891202668379425
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C10",
+    "value": 0.8875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.8291855372319126,
+      0.9276436614815589
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C10",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C10",
+    "value": 0.01875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.00639685074817652,
+      0.05367011213993146
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C11",
+    "value": 0.2625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.20046636542631086,
+      0.3356705772976905
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C11",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2745948376606062,
+      0.42023209834202624
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C11",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C11",
+    "value": 0.39375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.32138750697128726,
+      0.47109480951050275
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C12",
+    "value": 0.29375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2286747315293391,
+      0.3684968239941358
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C12",
+    "value": 0.475,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.3991189167475024,
+      0.5520533930129188
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C12",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C12",
+    "value": 0.23125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.17268348889490964,
+      0.3024188410296182
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C13",
+    "value": 0.60625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5289051904894971,
+      0.6786124930287126
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C13",
+    "value": 0.24375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.18374238113173402,
+      0.31577379391258315
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C13",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C13",
+    "value": 0.15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.10291845641859651,
+      0.21349388022730018
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C14",
+    "value": 0.2625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.20046636542631086,
+      0.3356705772976905
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C14",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2745948376606062,
+      0.42023209834202624
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C14",
+    "value": 0.39375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.32138750697128726,
+      0.47109480951050275
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C15",
+    "value": 0.63125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.5542327023576208,
+      0.702112671400168
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C15",
+    "value": 0.23125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.17268348889490964,
+      0.3024188410296182
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C15",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C15",
+    "value": 0.1375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.09258754862151167,
+      0.19941094290459568
+    ],
+    "n": 160
+  },
+  {
+    "id": "false.dev.gemma3-12b.C16",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.33321304716459915,
+      0.48368311443698037
+    ],
+    "n": 160
+  },
+  {
+    "id": "true.dev.gemma3-12b.C16",
+    "value": 0.35,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2803979973861255,
+      0.4266358611764016
+    ],
+    "n": 160
+  },
+  {
+    "id": "neither.dev.gemma3-12b.C16",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0,
+      0.023446195208423882
+    ],
+    "n": 160
+  },
+  {
+    "id": "both.dev.gemma3-12b.C16",
+    "value": 0.24375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.18374238113173402,
+      0.31577379391258315
+    ],
+    "n": 160
+  },
+  {
+    "id": "diff.dev.gemma3-12b.pc",
+    "value": -0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.48125,
+      -0.33125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.pc",
+    "value": 5.421010862427522e-20,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.decoy",
+    "value": -0.01875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.06890624999999974,
+      0.03125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.decoy",
+    "value": 0.6476058959960938,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.label_frame",
+    "value": -0.16875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.2375,
+      -0.10625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.label_frame",
+    "value": 1.4011748135089874e-06,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h1_honest",
+    "value": -0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.38125,
+      -0.24375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h1_honest",
+    "value": 1.7763568394002505e-14,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h2_metadata_forgery",
+    "value": 0.275,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2,
+      0.35
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h2_metadata_forgery",
+    "value": 2.2249935227591777e-10,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h3_tag_no_labels",
+    "value": 0.1125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0625,
+      0.16875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h3_tag_no_labels",
+    "value": 4.00543212890625e-05,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h3_tag_vs_honest",
+    "value": 0.1125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.06875,
+      0.1625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h3_tag_vs_honest",
+    "value": 2.288818359375e-05,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h3_tag_partial",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.24375,
+      0.3875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h3_tag_partial",
+    "value": 1.8829382497642655e-13,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h3_prose_vs_honest",
+    "value": 0.10625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.0625,
+      0.15625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h3_prose_vs_honest",
+    "value": 3.0517578125e-05,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h3_prose_partial",
+    "value": 0.3375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.2625,
+      0.4125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h3_prose_partial",
+    "value": 1.0691447727140257e-13,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h4_fix_tag_vs_honest",
+    "value": -0.15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.20625,
+      -0.09375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h4_fix_tag_vs_honest",
+    "value": 4.76837158203125e-07,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h4_fix_prose_vs_honest",
+    "value": -0.1625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.21875,
+      -0.10625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h4_fix_prose_vs_honest",
+    "value": 1.4901161193847656e-07,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h4_fix_tag_partial",
+    "value": -0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.41875,
+      -0.26875
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h4_fix_tag_partial",
+    "value": 8.854028621385623e-15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h4_fix_prose_partial",
+    "value": -0.225,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.29375,
+      -0.1625
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h4_fix_prose_partial",
+    "value": 2.0372681319713593e-10,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.h4_fix_metadata",
+    "value": -0.475,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.55,
+      -0.39375
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.h4_fix_metadata",
+    "value": 3.1763735522036263e-22,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.residual_tag_vs_honest",
+    "value": -0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.06875,
+      -0.0125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.residual_tag_vs_honest",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.residual_prose_vs_honest",
+    "value": -0.05625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.1,
+      -0.0125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.residual_prose_vs_honest",
+    "value": 0.0224609375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.residual_tag_partial",
+    "value": -0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.08125,
+      0.0125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.residual_tag_partial",
+    "value": 0.3017578125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.residual_prose_partial",
+    "value": 0.1125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      0.056093750000000275,
+      0.175
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.residual_prose_partial",
+    "value": 0.0009122341871261597,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "diff.dev.gemma3-12b.residual_metadata",
+    "value": -0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "ci": [
+      -0.08125,
+      0.0125
+    ],
+    "n": 160
+  },
+  {
+    "id": "p.dev.gemma3-12b.residual_metadata",
+    "value": 0.3017578125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    }
+  },
+  {
+    "id": "survived_fix.dev.C10",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.dev.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.dev.C16",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.dev.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C10",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C14",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C16",
+    "value": 1.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  },
+  {
+    "id": "survived_fix.heldout.C8",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/01_rates.py"
+    },
+    "n": 160
+  }
+]
