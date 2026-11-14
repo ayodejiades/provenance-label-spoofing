@@ -3,9 +3,9 @@
 | Step | State |
 |---|---|
 | question | done |
-| prereg | todo |
-| run | todo |
-| claims | todo |
+| prereg | done |
+| run | done |
+| claims | done |
 | lint | todo |
 | redteam | todo |
 | preflight | todo |
@@ -13,6 +13,6 @@
 
 ## Next
 
-Run `rops-prereg freeze .`.
+Run `rops-lint ./paper/paper.md`.
 
 Steps: question, prereg, run, claims, lint, redteam, preflight, pack.
