@@ -1,0 +1,186 @@
+# A forged label erases the benefit of reliability labels unless the harness verifies it
+
+**Team discreet** · Lagos, Nigeria · AI x Epistemics Research Sprint, Track 2 (Trust Infrastructure), Provenance Study
+
+## Abstract
+
+Agent frameworks increasingly attach reliability labels, such as a "verified" flag, to retrieved sources before a language model reads them. We ask whether such labels make a model more accurate when sources conflict, whether a forged label makes it follow a false source, and whether checking labels in the harness removes that effect. We built questions about made-up entities, each with one true source, one false source and two irrelevant ones, scored by exact match in code with no judge model. Five open-weight models from five developers answered 160 held-out items per condition across 17 conditions. Honest labels cut the share of answers following the false source by 16 to 48 points in every model. A forged label in the metadata channel raised it by 30 to 74 points. A trust claim typed inside the false document did so mainly where no source on the question was verified, adding 19 to 43 points for a label-shaped claim and 14 to 24 for the same claim written as prose, and little where the true source was verified. A harness that checks a signature on each label, marks everything else unverified and tells the model that source text is untrusted returned both typed forgeries and the metadata forgery to within five points of baseline in all but two checks, across five forgery settings and five models. Developers should pass labels to models only after verifying them in the harness. Labels the harness cannot verify do not help and can be forged.
+
+## 1. Introduction
+
+When an agent retrieves several sources that disagree, the framework around the model often adds metadata about each source: a reliability score, a "verified" badge, a provenance record. The assumption behind this is that the model will use the signal to prefer the better source. The assumption is rarely tested, and it has a second edge. A signal the model obeys is also a signal an attacker wants to write. If the model treats the words "verified source" as a reason to believe a document, anyone who can place text in the context can claim that status.
+
+We study this for the person who has to decide: an agent-framework developer choosing whether to pass reliability labels to the model at all, and whether they must be verified in the harness first. Our contributions are:
+
+1. A controlled test, on synthetic questions with known answers, of whether reliability labels reduce the share of answers that follow a false source, with a decoy that controls for the mere presence of metadata and a positive control that tells the model which source is false.
+2. A test of two forgeries: a label placed in the metadata channel, and a trust claim typed into the false document itself, in a label-shaped form and as an ordinary sentence.
+3. A harness-side fix, signature-checked labels plus stripping of trust claims from document text, scored against both forgeries and against the prose forgery the stripper was not designed for.
+
+All of this was preregistered on 13 November 2026 before any main-phase run, with two recorded deviations to the positive control (Section 3.4).
+
+## 2. Related Work
+
+Wan, Wallace and Klein [1] study what evidence language models find convincing when real web documents conflict. They report that models rely heavily on how relevant a document is to the query and largely ignore stylistic cues that humans weigh, such as scientific references or a neutral tone. Our setting differs in two ways: the cue is an explicit reliability label supplied by the harness, and we test whether that cue can be forged.
+
+Ge et al. [2] introduce CONFACT, a dataset of questions paired with conflicting evidence from sources of different credibility, and show that retrieval-augmented models struggle when conflicts stem from differences in media-source credibility. They report that incorporating source credibility information substantially improves how well models resolve conflicts. This supports the premise that credibility signals can help; it does not ask what happens when the signal is untrustworthy.
+
+Patil [3] shows that embedding-based defences for retrieval-augmented systems fail to detect numerical manipulation of retrieved text, and proposes verifying extracted claims against a registry built from the corpus. This bears on our harness-side view that trust decisions should be made in code the attacker cannot write to. Our work differs in testing the label the model sees and measuring the model's response, with answers scored by exact match. We did not find prior work that tests whether a forged reliability label is read by a model as a trust signal.
+
+## 3. Methods
+
+### 3.1 Items
+
+Each item asks a question about a made-up entity, for example the year a made-up observatory was completed, and offers four sources. One source states the true value, one states a false value, and two give no answer. The true and false values come from the same generator and the same sentence templates, and which of the two appears first is balanced across items, so only a reliability signal can tell them apart. There are five attribute types: completion year, tower height, designer, town and heritage register number. An item depends only on its seed and index, so every condition sees the same items and contrasts are paired. Each seed has 40 items and there are 8 seeds: seeds 0 to 3 are development, seeds 4 to 7 are held out and are the basis of every headline number.
+
+### 3.2 Conditions
+
+Table 1 lists the 17 conditions. "Verified" and "unverified" are a status attribute on the source tag, set by the harness. A "typed claim" is a sentence placed at the top of the false document by the attacker. The label-shaped form is a tag such as a bracketed verification status; the prose form is an ordinary sentence saying the page was checked and confirmed. Two settings matter: in *honest coverage* the harness verifies the true source, and in *partial coverage* the labelling scheme exists but no source on the question is verified.
+
+**Table 1.** Conditions.
+
+| Id | What the model sees |
+|---|---|
+| C0 | Question only, no sources (closed book; checks that items cannot be answered from memory) |
+| C1 | Four sources, no labels (baseline) |
+| C2 | True source verified, others unverified (honest labels) |
+| C3 | Retrieval date and document id on every source, no reliability content (decoy) |
+| C4 | No labels; the prompt states which source contains an error (positive control) |
+| C5 | False source carries an unsigned "verified" label, others unverified (metadata forgery) |
+| C6 | No labels; the false document opens with a label-shaped trust claim |
+| C7 | As C2, plus a label-shaped trust claim in the false document |
+| C8 | C7 with the fix |
+| C9 | As C2, plus a prose trust claim in the false document |
+| C10 | C9 with the fix |
+| C11 | C5 with the fix |
+| C12 | Labels on, no source verified (partial-coverage baseline) |
+| C13 | C12 plus a label-shaped trust claim in the false document |
+| C14 | C13 with the fix |
+| C15 | C12 plus a prose trust claim in the false document |
+| C16 | C15 with the fix |
+
+### 3.3 The fix
+
+The fix is a small harness component. It shows a "verified" label only when an HMAC over the source id and text verifies; every other source is shown as unverified. It then removes label-shaped trust claims from document text with pattern matching, and the prompt tells the model that the status attribute is the only trust signal and that text inside a source is untrusted. The patterns were written against the development phrasings only. The held-out forged phrasings were written by two local models that did not see the fix, and the fix was not changed after they were written.
+
+### 3.4 Models, scoring and preregistration
+
+Five open-weight models from five developers ran every condition at temperature 0 with one reply per item and at most 64 output tokens: qwen2.5:7b and llama3.1:8b locally on Ollama, and gemma3:12b, mistral-nemo:12b and phi4:14b on a Kaggle T4 GPU, one notebook each. A reply is scored by exact match against the two planted values as *true*, *false*, *both* or *neither*. The primary metric is the *false-follow rate*, the share of replies that name the false value and not the true one. There is no judge model and no hand labelling. We report paired differences by item with a bootstrap interval, an exact sign test and Holm correction. Table 4 gives the intervals; the sign tests and Holm-adjusted p-values are in the repository.
+
+The preregistration was frozen as tag prereg-v1 on 13 November 2026. Its positive control required the false-follow rate of C4 to fall at least 30 points below that of C1. The control passed pooled over the two local models, but two models showed that the rule had been badly specified, and we recorded two deviations after seeing only the control runs.
+
+**D1.** phi4:14b often names both values or reports the conflict when no labels are given, so its baseline false-follow rate was already below 30 percent and a drop of 30 points was unreachable. Its first control failed on that basis. We changed the rule for models whose baseline false-follow rate is below 30 percent to a rise of at least 30 points in the true-follow rate, and re-ran phi4:14b.
+
+**D2.** llama3.1:8b missed the original rule by under two points (a drop of 28 points). We extended the D1 rule to every model. Every model passes it. Table 2 shows each model's control under both rules; two models fail the original rule, and every claim that depends on them should be read as holding under the changed rule only.
+
+## 4. Results
+
+### 4.1 Positive control and instrument checks
+
+The positive control comes first. Pooled over the two local models, telling the model which source is false cut the false-follow rate from 45 to 8, a drop of 37 points against the preregistered 30, so the pooled control passes. Table 2 gives each model separately.
+
+**Table 2.** Positive control per model over all seeds: change in false-follow rate and in true-follow rate when the prompt names the false source (C4 against C1).
+
+| Model | Drop in false-follow | Rise in true-follow | Passes original rule | Passes changed rule |
+|---|---|---|---|---|
+| gemma3:12b | -44 | 44 | yes | yes |
+| llama3.1:8b | -28 | 42 | no | yes |
+| mistral-nemo:12b | -45 | 45 | yes | yes |
+| phi4:14b | -17 | 80 | no | yes |
+| qwen2.5:7b | -46 | 47 | yes | yes |
+
+In the closed-book condition C0 no model answered with either planted value in more than 1 of replies, so items cannot be answered from memory. Of 27,200 replies, 0 calls failed and 1,332 had no answer line and were scored on the whole reply. We checked every reply scored *neither* with sources shown (213 replies) for a planted value that formatting had hidden from the scorer and found 3; they are abstentions or replies cut off by the token limit.
+
+### 4.2 Labels help, and a forged label in the metadata channel is strong leverage
+
+Table 3 and Figure 1 give the held-out false-follow rates. In all five models, honest labels (C2) lowered the false-follow rate by 16 to 48 points against no labels (C1). The decoy (C3), metadata of similar length with no reliability content, moved it by at most 8 points, so the effect is a response to the label and not to extra metadata.
+
+The same channel is an attack surface. An unsigned "verified" label on the false source (C5) raised the false-follow rate by 30 to 74 points against no labels, to between 81 and 98 percent of answers.
+
+**Table 3.** Held-out false-follow rate (percent of 160 replies) per condition and model.
+
+| Cond. | gemma3:12b | llama3.1:8b | mistral-nemo:12b | phi4:14b | qwen2.5:7b |
+|---|---|---|---|---|---|
+| C0 | 0 | 0 | 0 | 0 | 1 |
+| C1 | 51 | 42 | 44 | 18 | 51 |
+| C3 | 51 | 34 | 49 | 17 | 46 |
+| C2 | 17 | 1 | 1 | 2 | 4 |
+| C4 | 4 | 8 | 2 | 0 | 4 |
+| C5 | 81 | 95 | 98 | 92 | 94 |
+| C6 | 57 | 69 | 69 | 33 | 71 |
+| C7 | 23 | 9 | 11 | 9 | 13 |
+| C8 | 11 | 6 | 0 | 2 | 3 |
+| C9 | 26 | 5 | 2 | 4 | 6 |
+| C10 | 8 | 5 | 1 | 1 | 3 |
+| C11 | 29 | 42 | 41 | 5 | 41 |
+| C12 | 36 | 40 | 44 | 6 | 41 |
+| C13 | 56 | 83 | 82 | 41 | 80 |
+| C14 | 29 | 42 | 41 | 5 | 41 |
+| C15 | 52 | 64 | 66 | 20 | 62 |
+| C16 | 36 | 36 | 44 | 8 | 50 |
+
+![Figure 1: Share of held-out answers following the false source, by condition and model, with 95% Wilson intervals. C2 honest labels, C5 forged metadata label, C12 no source verified, C13 and C15 typed claim (label-shaped and prose), C14 and C16 the same with the fix.](figures/fig1.png)
+
+### 4.3 A typed trust claim works where the labelling scheme has a gap
+
+A trust claim typed into the false document raised false-follow where no source on the question was verified. With a label-shaped claim (C13 against C12) the rise was 19 to 43 points across the five models, and with the same claim as prose (C15 against C12) it was 14 to 24 points; every interval excludes zero. With no labelling scheme at all (C6 against C1) the label-shaped claim added at least ten points in four of five models; gemma3:12b did not (7 points).
+
+Against a verified true source the effect largely disappears. With honest labels in place (C7 and C9 against C2), the label-shaped claim reached the preregistered ten-point threshold in one model only (mistral-nemo:12b, 10 points), and the prose claim moved false-follow by at most 9 points in any model.
+
+So the typed claim is not a reliability label that models obey in general. It wins where the model has no verified source to prefer.
+
+### 4.4 The fix, and where it does not hold
+
+Table 4 gives the paired differences with intervals. After the fix, the label-shaped claim was left in the false document in 0 percent of held-out items and the prose claim in 100 percent, as the stripper's patterns predict. The prose claim passed through the stripper untouched, yet the fix still held in most settings, because the verification step and the prompt, not the stripper, carry the protection: the false source is shown as unverified whatever its text says.
+
+**Table 4.** Held-out paired differences in false-follow rate, in percentage points, with the 95% bootstrap interval after "to". Columns are the five models in the order of Table 3. H1 honest labels against none (C2-C1). H2 metadata forgery (C5-C1). H3 label-shaped typed claim, partial coverage (C13-C12). H4 fix on that claim (C14-C13), fix on the metadata forgery (C11-C5), and residual after the fix against the partial-coverage baseline (C14-C12).
+
+| Contrast | Model 1 | Model 2 | Model 3 | Model 4 | Model 5 |
+|---|---|---|---|---|---|
+| H1 C2-C1 | -34 (-41 to -26) | -41 (-49 to -33) | -43 (-51 to -35) | -16 (-22 to -11) | -48 (-55 to -40) |
+| H2 C5-C1 | 30 (23 to 37) | 53 (46 to 61) | 54 (47 to 62) | 74 (67 to 81) | 42 (35 to 50) |
+| H3 C13-C12 | 19 (12 to 26) | 43 (36 to 51) | 38 (31 to 45) | 35 (28 to 42) | 39 (31 to 47) |
+| H3 C15-C12 | 16 (11 to 22) | 24 (18 to 31) | 22 (15 to 29) | 14 (9 to 20) | 21 (14 to 29) |
+| H4 C14-C13 | -27 (-34 to -20) | -41 (-49 to -33) | -42 (-50 to -34) | -36 (-43 to -29) | -39 (-47 to -31) |
+| H4 C16-C15 | -17 (-23 to -11) | -29 (-36 to -22) | -22 (-29 to -16) | -12 (-17 to -7) | -12 (-19 to -7) |
+| H4 C11-C5 | -52 (-59 to -44) | -52 (-61 to -44) | -57 (-66 to -49) | -87 (-92 to -82) | -52 (-61 to -44) |
+| Residual C14-C12 | -8 (-13 to -2) | 2 (-2 to 8) | -4 (-10 to 2) | -1 (-2 to 0) | 0 (-5 to 5) |
+| Residual C16-C12 | -1 (-6 to 4) | -4 (-11 to 1) | -1 (-8 to 7) | 2 (-1 to 6) | 9 (1 to 16) |
+| Residual C11-C12 | -8 (-13 to -2) | 2 (-2 to 8) | -4 (-10 to 2) | -1 (-2 to 0) | 0 (-5 to 5) |
+
+The fix returned false-follow to within five points of the matching baseline in all but two of the checks (five forgery settings in each of five models). The two exceptions are reported as they came out: llama3.1:8b with a label-shaped claim against honest labels (5 points above the honest baseline, at the preregistered threshold of five), and qwen2.5:7b with a prose claim under partial coverage (9 points above the baseline). For the metadata forgery, the fix left false-follow within five points of the partial-coverage baseline in all five models.
+
+## 5. Discussion and Limitations
+
+For a framework developer the results give a plain rule. Labels help only when the harness can vouch for them; a label the harness cannot verify can be forged, and in the metadata channel it is forged cheaply. A signature check on the label and a channel note telling the model to distrust source text cost a few lines of code and removed most of the effect in every model we tested.
+
+This study does not establish how large these effects are on real documents, on frontier models or under other prompt wordings. Limits. The questions are synthetic and short, so we do not know how large the effects are on real documents, where models may weigh a label against other evidence. The five models are open-weight, between seven and fourteen billion parameters, and we did not test frontier models. Prompts have one wording and one format; a different label vocabulary may change the effect sizes. We used one reply at temperature 0 per item and cannot speak to run-to-run variation. The fix was developed on the same task family it is tested on, with held-out seeds and held-out phrasings but the same item generator, and its pattern matching was not tested against adversaries who see it. The prose forgery shows that stripping is a weak part of the fix; the signature check and prompt are the strong part. The positive control rule was changed twice after control data was seen (Section 3.4). An exploratory arm with two free hosted models was started and abandoned when the service stopped answering; none of its output is used.
+
+## 6. Conclusion
+
+Reliability labels change what language models believe, which is what makes them useful and what makes them an attack surface. In five open-weight models, honest labels cut false-source following sharply, a forged label in the metadata channel undid that and more, and a typed claim worked mainly where nothing on the question was verified. Verifying labels in the harness and telling the model to distrust source text removed most of the effect. A developer who passes labels to a model should verify them first.
+
+## Code and Data
+
+Code, configurations, run logs, results and the frozen preregistration (tag prereg-v1): <<FILL: public repository URL>>.
+
+### What is new this weekend
+
+Everything in this report was produced during the sprint weekend except the ResearchOps toolkit that runs the grid and checks the results (existing tooling with no experiment code for this project). The item generator, harness, fix and analysis were written on 13 November 2026, the first day of the sprint, before the kickoff session; the pilot used seed 100, which no reported result uses.
+
+## References
+
+[1] A. Wan, E. Wallace and D. Klein. What Evidence Do Language Models Find Convincing? ACL 2024. arXiv:2402.11782.
+
+[2] Z. Ge, Y. Wu, D. W. K. Chin, R. K.-W. Lee and R. Cao. Resolving Conflicting Evidence in Automated Fact-Checking: A Study on Retrieval-Augmented LLMs. arXiv:2505.17762, 2025.
+
+[3] K. Patil. RAGShield: Detecting Numerical Claim Manipulation in Government RAG Systems. arXiv:2604.00387, 2026.
+
+## Appendix A: Limitations and Dual-Use / Ethical Considerations
+
+**Dual use.** The study measures how easily a trust label can be forged, and the typed forgeries we used are easy to copy. We think the defensive value outweighs the risk: the forgeries are generic, the attack needs the ability to place text in a model's context, and the fix is simple and stated in full. We tested nothing against real users or live systems, and no personal data was involved. All entities and sources are made up.
+
+**Limitations.** See Section 5. This study does not establish that a verified label is safe in every deployment: a harness that holds the signing key insecurely, or that signs attacker-chosen text, would reintroduce the problem. In addition, the held-out forged phrasings were written by two local language models and not by people, so they may be more regular than a real adversary's. The item generator uses five attribute types and one sentence style per type.
+
+## LLM Usage Statement
+
+The text of this report was drafted by Claude (Anthropic), a large language model used through Claude Code: the model claude-sonnet-5-5 drafted this text, and the model claude-fable-5-2 wrote the experiment harness, the fix and the analysis code. The authors directed the project, chose the research question, ran the experiments, checked every number against the results file, and edited the draft. The Kaggle runs used the authors' own account. The language models that were the subjects of the experiments are listed in Section 3.4.
