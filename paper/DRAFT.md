@@ -1,4 +1,4 @@
-# A forged label erases the benefit of reliability labels unless the harness verifies it
+# Provenance Label Spoofing Degrades Source Selection in Retrieval-Augmented LLMs; Harness-Side Verification Recovers It
 
 **Ayodeji Adesegun** · Team discreet · Lagos, Nigeria · AI x Epistemics Research Sprint, Track 2 (Trust Infrastructure), Provenance Study
 
