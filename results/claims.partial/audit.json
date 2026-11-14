@@ -1,0 +1,50 @@
+[
+  {
+    "id": "audit.replies",
+    "value": 27200,
+    "abstract": false,
+    "source": {
+      "script": "analysis/03_audit.py"
+    }
+  },
+  {
+    "id": "audit.errors",
+    "value": 0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/03_audit.py"
+    }
+  },
+  {
+    "id": "audit.no_answer_line",
+    "value": 1332,
+    "abstract": false,
+    "source": {
+      "script": "analysis/03_audit.py"
+    }
+  },
+  {
+    "id": "audit.cut_off",
+    "value": 56,
+    "abstract": false,
+    "source": {
+      "script": "analysis/03_audit.py"
+    }
+  },
+  {
+    "id": "audit.neither_with_sources",
+    "value": 213,
+    "abstract": false,
+    "source": {
+      "script": "analysis/03_audit.py"
+    }
+  },
+  {
+    "id": "audit.near_misses",
+    "value": 3,
+    "abstract": false,
+    "source": {
+      "script": "analysis/03_audit.py"
+    }
+  }
+]

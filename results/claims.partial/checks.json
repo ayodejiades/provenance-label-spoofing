@@ -1,0 +1,3642 @@
+[
+  {
+    "id": "check.dev.gemma3-12b.C1.attr.designer",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C1.attr.height",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2041043791545783,
+      0.5168891203483486
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C1.attr.register",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C1.attr.town",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C1.attr.year",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C1.order.false_first",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5793222424627288,
+      0.7784959589350137
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.gemma3-12b.C1.order.true_first",
+    "value": 0.2375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.15764672861435855,
+      0.341407789428802
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.gemma3-12b.C12.attr.designer",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.017310567015677805,
+      0.20147123159251734
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C12.attr.height",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C12.attr.register",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C12.attr.town",
+    "value": 0.28125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.15564580490123922,
+      0.4537450944028584
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C12.attr.year",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C12.order.false_first",
+    "value": 0.45,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.345776891768661,
+      0.558804921191941
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.gemma3-12b.C12.order.true_first",
+    "value": 0.1375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.07854714320800885,
+      0.2296710007563558
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.gemma3-12b.C13.attr.designer",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C13.attr.height",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C13.attr.register",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C13.attr.town",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C13.attr.year",
+    "value": 0.65625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4831108796516515,
+      0.7958956208454218
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C13.order.false_first",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5154872545425362,
+      0.7230582130559589
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.gemma3-12b.C13.order.true_first",
+    "value": 0.5875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4780404033714963,
+      0.6889414239474503
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.gemma3-12b.C15.attr.designer",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C15.attr.height",
+    "value": 0.78125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6124500633596475,
+      0.8897616375350843
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C15.attr.register",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C15.attr.town",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C15.attr.year",
+    "value": 0.65625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4831108796516515,
+      0.7958956208454218
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.gemma3-12b.C15.order.false_first",
+    "value": 0.675,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5664052730159488,
+      0.7675583816219442
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.gemma3-12b.C15.order.true_first",
+    "value": 0.5875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4780404033714963,
+      0.6889414239474503
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C1.attr.designer",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2041043791545783,
+      0.5168891203483486
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C1.attr.height",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C1.attr.register",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2041043791545783,
+      0.5168891203483486
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C1.attr.town",
+    "value": 0.1875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.08889544684267983,
+      0.3530915521631739
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C1.attr.year",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C1.order.false_first",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39297415077886544,
+      0.6070258492211346
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C1.order.true_first",
+    "value": 0.2,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.12702844039237093,
+      0.3004624373712412
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C12.attr.designer",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2041043791545783,
+      0.5168891203483486
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C12.attr.height",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C12.attr.register",
+    "value": 0.15625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.06864420278066685,
+      0.3175414961257722
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C12.attr.town",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2041043791545783,
+      0.5168891203483486
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C12.attr.year",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C12.order.false_first",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4534113428833163,
+      0.6658613909159311
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C12.order.true_first",
+    "value": 0.1125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.06032686943635977,
+      0.20018218100830582
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C13.attr.designer",
+    "value": 0.84375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6824585038742279,
+      0.9313557972193331
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C13.attr.height",
+    "value": 0.78125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6124500633596475,
+      0.8897616375350843
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C13.attr.register",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C13.attr.town",
+    "value": 0.75,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5789344099115531,
+      0.867475990883764
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C13.attr.year",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C13.order.false_first",
+    "value": 0.85,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7558677142994839,
+      0.912059594976302
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C13.order.true_first",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4534113428833163,
+      0.6658613909159311
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C15.attr.designer",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C15.attr.height",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5143332168494361,
+      0.8204745837470517
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C15.attr.register",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C15.attr.town",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C15.attr.year",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C15.order.false_first",
+    "value": 0.8625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7703289992436443,
+      0.9214528567919912
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.llama3.1-8b.C15.order.true_first",
+    "value": 0.3625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.26570793057458253,
+      0.471892055067073
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C1.attr.designer",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C1.attr.height",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C1.attr.register",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C1.attr.town",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C1.attr.year",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C1.order.false_first",
+    "value": 0.6,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.49045464996365545,
+      0.7003817241151404
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C1.order.true_first",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.3341386090840688,
+      0.5465886571166837
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C12.attr.designer",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C12.attr.height",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C12.attr.register",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C12.attr.town",
+    "value": 0.65625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4831108796516515,
+      0.7958956208454218
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C12.attr.year",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C12.order.false_first",
+    "value": 0.525,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4169564264132941,
+      0.630752667106405
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C12.order.true_first",
+    "value": 0.5375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.42904357582791264,
+      0.6425200644516359
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C13.attr.designer",
+    "value": 0.90625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7578184525649289,
+      0.9675984487274615
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C13.attr.height",
+    "value": 0.90625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7578184525649289,
+      0.9675984487274615
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C13.attr.register",
+    "value": 0.8125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6469084478368262,
+      0.9111045531573202
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C13.attr.town",
+    "value": 0.9375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7985287684074827,
+      0.9826894329843221
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C13.attr.year",
+    "value": 0.84375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6824585038742279,
+      0.9313557972193331
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C13.order.false_first",
+    "value": 0.8375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7415709565050458,
+      0.9025018060108906
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C13.order.true_first",
+    "value": 0.925,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.8458798391070722,
+      0.9651747507278107
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C15.attr.designer",
+    "value": 0.75,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5789344099115531,
+      0.867475990883764
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C15.attr.height",
+    "value": 0.8125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6469084478368262,
+      0.9111045531573202
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C15.attr.register",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C15.attr.town",
+    "value": 0.78125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6124500633596475,
+      0.8897616375350843
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C15.attr.year",
+    "value": 0.8125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6469084478368262,
+      0.9111045531573202
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C15.order.false_first",
+    "value": 0.65,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5408000663984303,
+      0.7454544947197637
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.mistral-nemo-12b.C15.order.true_first",
+    "value": 0.9,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.8148931118555212,
+      0.9484523844596628
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C1.attr.designer",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.0,
+      0.10717919840936586
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C1.attr.height",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1795254162529483,
+      0.4856667831505639
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C1.attr.register",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.017310567015677805,
+      0.20147123159251734
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C1.attr.town",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.005537860157737773,
+      0.15744263835104275
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C1.attr.year",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C1.order.false_first",
+    "value": 0.15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.08794040502369802,
+      0.24413228570051607
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C1.order.true_first",
+    "value": 0.1875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.11705310462473455,
+      0.28658322637902806
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C12.attr.designer",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.0,
+      0.10717919840936586
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C12.attr.height",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.005537860157737773,
+      0.15744263835104275
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C12.attr.register",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.005537860157737773,
+      0.15744263835104275
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C12.attr.town",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.0,
+      0.10717919840936586
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C12.attr.year",
+    "value": 0.25,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.13252400911623605,
+      0.4210655900884469
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C12.order.false_first",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.02698937565338118,
+      0.13810148775188646
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C12.order.true_first",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.02698937565338118,
+      0.13810148775188646
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C13.attr.designer",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C13.attr.height",
+    "value": 0.75,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5789344099115531,
+      0.867475990883764
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C13.attr.register",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C13.attr.town",
+    "value": 0.28125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.15564580490123922,
+      0.4537450944028584
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C13.attr.year",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C13.order.false_first",
+    "value": 0.3,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.21064571253846942,
+      0.4076815393039386
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C13.order.true_first",
+    "value": 0.7625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6585922105711979,
+      0.8423532713856414
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C15.attr.designer",
+    "value": 0.15625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.06864420278066685,
+      0.3175414961257722
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C15.attr.height",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C15.attr.register",
+    "value": 0.1875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.08889544684267983,
+      0.3530915521631739
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C15.attr.town",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.017310567015677805,
+      0.20147123159251734
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C15.attr.year",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.phi4-14b.C15.order.false_first",
+    "value": 0.05,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.01961355452161819,
+      0.12162276212379994
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.phi4-14b.C15.order.true_first",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.3341386090840688,
+      0.5465886571166837
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C1.attr.designer",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C1.attr.height",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C1.attr.register",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C1.attr.town",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C1.attr.year",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C1.order.false_first",
+    "value": 0.45,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.345776891768661,
+      0.558804921191941
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C1.order.true_first",
+    "value": 0.5875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4780404033714963,
+      0.6889414239474503
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C12.attr.designer",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C12.attr.height",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C12.attr.register",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C12.attr.town",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C12.attr.year",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C12.order.false_first",
+    "value": 0.4,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2996182758848595,
+      0.5095453500363445
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C12.order.true_first",
+    "value": 0.525,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4169564264132941,
+      0.630752667106405
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C13.attr.designer",
+    "value": 0.78125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6124500633596475,
+      0.8897616375350843
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C13.attr.height",
+    "value": 0.84375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6824585038742279,
+      0.9313557972193331
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C13.attr.register",
+    "value": 0.65625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4831108796516515,
+      0.7958956208454218
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C13.attr.town",
+    "value": 0.84375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6824585038742279,
+      0.9313557972193331
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C13.attr.year",
+    "value": 0.8125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6469084478368262,
+      0.9111045531573202
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C13.order.false_first",
+    "value": 0.7125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6053965377794699,
+      0.8001307571379717
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C13.order.true_first",
+    "value": 0.8625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7703289992436443,
+      0.9214528567919912
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C15.attr.designer",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C15.attr.height",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C15.attr.register",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C15.attr.town",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5143332168494361,
+      0.8204745837470517
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C15.attr.year",
+    "value": 0.75,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5789344099115531,
+      0.867475990883764
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C15.order.false_first",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4534113428833163,
+      0.6658613909159311
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.dev.qwen2.5-7b.C15.order.true_first",
+    "value": 0.825,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7274245801231066,
+      0.8927936356329801
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C1.attr.designer",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C1.attr.height",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C1.attr.register",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C1.attr.town",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C1.attr.year",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C1.order.false_first",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5793222424627288,
+      0.7784959589350137
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C1.order.true_first",
+    "value": 0.325,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.23244161837805577,
+      0.4335947269840513
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C12.attr.designer",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.017310567015677805,
+      0.20147123159251734
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C12.attr.height",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C12.attr.register",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C12.attr.town",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C12.attr.year",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C12.order.false_first",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39297415077886544,
+      0.6070258492211346
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C12.order.true_first",
+    "value": 0.225,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1473320733570586,
+      0.3278678979262525
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C13.attr.designer",
+    "value": 0.28125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.15564580490123922,
+      0.4537450944028584
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C13.attr.height",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C13.attr.register",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C13.attr.town",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C13.attr.year",
+    "value": 0.65625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4831108796516515,
+      0.7958956208454218
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C13.order.false_first",
+    "value": 0.575,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4656928983788726,
+      0.6774343821802242
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C13.order.true_first",
+    "value": 0.5375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.42904357582791264,
+      0.6425200644516359
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C15.attr.designer",
+    "value": 0.25,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.13252400911623605,
+      0.4210655900884469
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C15.attr.height",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C15.attr.register",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C15.attr.town",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C15.attr.year",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C15.order.false_first",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5154872545425362,
+      0.7230582130559589
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.gemma3-12b.C15.order.true_first",
+    "value": 0.425,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.3225656178197757,
+      0.5343071016211274
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C1.attr.designer",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C1.attr.height",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C1.attr.register",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C1.attr.town",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1795254162529483,
+      0.4856667831505639
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C1.attr.year",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C1.order.false_first",
+    "value": 0.5875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4780404033714963,
+      0.6889414239474503
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C1.order.true_first",
+    "value": 0.25,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.16806231852012246,
+      0.3548467462828876
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C12.attr.designer",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2816533110428482,
+      0.6067440887583225
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C12.attr.height",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C12.attr.register",
+    "value": 0.1875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.08889544684267983,
+      0.3530915521631739
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C12.attr.town",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C12.attr.year",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C12.order.false_first",
+    "value": 0.65,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5408000663984303,
+      0.7454544947197637
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C12.order.true_first",
+    "value": 0.15,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.08794040502369802,
+      0.24413228570051607
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C13.attr.designer",
+    "value": 0.90625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7578184525649289,
+      0.9675984487274615
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C13.attr.height",
+    "value": 0.875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7193169450324386,
+      0.9502986561605371
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C13.attr.register",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5143332168494361,
+      0.8204745837470517
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C13.attr.town",
+    "value": 0.8125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6469084478368262,
+      0.9111045531573202
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C13.attr.year",
+    "value": 0.875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7193169450324386,
+      0.9502986561605371
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C13.order.false_first",
+    "value": 0.925,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.8458798391070722,
+      0.9651747507278107
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C13.order.true_first",
+    "value": 0.7375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6318104032650825,
+      0.8214259851720579
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C15.attr.designer",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C15.attr.height",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5143332168494361,
+      0.8204745837470517
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C15.attr.register",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C15.attr.town",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C15.attr.year",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5143332168494361,
+      0.8204745837470517
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C15.order.false_first",
+    "value": 0.85,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7558677142994839,
+      0.912059594976302
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.llama3.1-8b.C15.order.true_first",
+    "value": 0.4375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.3341386090840688,
+      0.5465886571166837
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C1.attr.designer",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C1.attr.height",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C1.attr.register",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C1.attr.town",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1795254162529483,
+      0.4856667831505639
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C1.attr.year",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C1.order.false_first",
+    "value": 0.4625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.35747993554836416,
+      0.5709564241720874
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C1.order.true_first",
+    "value": 0.4125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.3110585760525498,
+      0.5219595966285038
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C12.attr.designer",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2041043791545783,
+      0.5168891203483486
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C12.attr.height",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C12.attr.register",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C12.attr.town",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C12.attr.year",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C12.order.false_first",
+    "value": 0.3625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.26570793057458253,
+      0.471892055067073
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C12.order.true_first",
+    "value": 0.525,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4169564264132941,
+      0.630752667106405
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C13.attr.designer",
+    "value": 0.875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7193169450324386,
+      0.9502986561605371
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C13.attr.height",
+    "value": 0.78125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6124500633596475,
+      0.8897616375350843
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C13.attr.register",
+    "value": 0.78125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6124500633596475,
+      0.8897616375350843
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C13.attr.town",
+    "value": 0.84375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6824585038742279,
+      0.9313557972193331
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C13.attr.year",
+    "value": 0.84375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6824585038742279,
+      0.9313557972193331
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C13.order.false_first",
+    "value": 0.7,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5923184606960613,
+      0.7893542874615306
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C13.order.true_first",
+    "value": 0.95,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.8783772378762,
+      0.9803864454783817
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C15.attr.designer",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C15.attr.height",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5143332168494361,
+      0.8204745837470517
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C15.attr.register",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.45254407339618496,
+      0.7706611270014736
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C15.attr.town",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C15.attr.year",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C15.order.false_first",
+    "value": 0.4625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.35747993554836416,
+      0.5709564241720874
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.mistral-nemo-12b.C15.order.true_first",
+    "value": 0.8625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7703289992436443,
+      0.9214528567919912
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C1.attr.designer",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.017310567015677805,
+      0.20147123159251734
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C1.attr.height",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C1.attr.register",
+    "value": 0.125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.049701343839462994,
+      0.2806830549675614
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C1.attr.town",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.0,
+      0.10717919840936586
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C1.attr.year",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1795254162529483,
+      0.4856667831505639
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C1.order.false_first",
+    "value": 0.075,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.03482524927218933,
+      0.1541201608929278
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C1.order.true_first",
+    "value": 0.2875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.19986924286202845,
+      0.3946034622205301
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C12.attr.designer",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.005537860157737773,
+      0.15744263835104275
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C12.attr.height",
+    "value": 0.03125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.005537860157737773,
+      0.15744263835104275
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C12.attr.register",
+    "value": 0.09375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.03240155127253855,
+      0.24218154743507123
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C12.attr.town",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.0,
+      0.10717919840936586
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C12.attr.year",
+    "value": 0.125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.049701343839462994,
+      0.2806830549675614
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C12.order.false_first",
+    "value": 0.025,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.006882893196639338,
+      0.0866443299290798
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C12.order.true_first",
+    "value": 0.0875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.043032001758054717,
+      0.1697679551669119
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C13.attr.designer",
+    "value": 0.25,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.13252400911623605,
+      0.4210655900884469
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C13.attr.height",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C13.attr.register",
+    "value": 0.375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.22933887299852637,
+      0.547455926603815
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C13.attr.town",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1795254162529483,
+      0.4856667831505639
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C13.attr.year",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C13.order.false_first",
+    "value": 0.1125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.06032686943635977,
+      0.20018218100830582
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C13.order.true_first",
+    "value": 0.7,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5923184606960613,
+      0.7893542874615306
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C15.attr.designer",
+    "value": 0.0625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.017310567015677805,
+      0.20147123159251734
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C15.attr.height",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C15.attr.register",
+    "value": 0.21875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.11023836246491578,
+      0.38754993664035253
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C15.attr.town",
+    "value": 0.0,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.0,
+      0.10717919840936586
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C15.attr.year",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1795254162529483,
+      0.4856667831505639
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.phi4-14b.C15.order.false_first",
+    "value": 0.0375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.012834568909705371,
+      0.10454720097586326
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.phi4-14b.C15.order.true_first",
+    "value": 0.3625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.26570793057458253,
+      0.471892055067073
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C1.attr.designer",
+    "value": 0.5625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.39325591124167747,
+      0.7183466889571518
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C1.attr.height",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C1.attr.register",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C1.attr.town",
+    "value": 0.5,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.33630882857544986,
+      0.6636911714245501
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C1.attr.year",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C1.order.false_first",
+    "value": 0.4,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2996182758848595,
+      0.5095453500363445
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C1.order.true_first",
+    "value": 0.625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5154872545425362,
+      0.7230582130559589
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C12.attr.designer",
+    "value": 0.3125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.1795254162529483,
+      0.4856667831505639
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C12.attr.height",
+    "value": 0.34375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2041043791545783,
+      0.5168891203483486
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C12.attr.register",
+    "value": 0.40625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.2551963483247074,
+      0.5773997513770487
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C12.attr.town",
+    "value": 0.46875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.30869387096784134,
+      0.6355048289327441
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C12.attr.year",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C12.order.false_first",
+    "value": 0.3625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.26570793057458253,
+      0.471892055067073
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C12.order.true_first",
+    "value": 0.4625,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.35747993554836416,
+      0.5709564241720874
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C13.attr.designer",
+    "value": 0.875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7193169450324386,
+      0.9502986561605371
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C13.attr.height",
+    "value": 0.75,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5789344099115531,
+      0.867475990883764
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C13.attr.register",
+    "value": 0.75,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5789344099115531,
+      0.867475990883764
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C13.attr.town",
+    "value": 0.8125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6469084478368262,
+      0.9111045531573202
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C13.attr.year",
+    "value": 0.8125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.6469084478368262,
+      0.9111045531573202
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C13.order.false_first",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5793222424627288,
+      0.7784959589350137
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C13.order.true_first",
+    "value": 0.9125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.8302320448330881,
+      0.9569679982419453
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C15.attr.designer",
+    "value": 0.6875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5143332168494361,
+      0.8204745837470517
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C15.attr.height",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C15.attr.register",
+    "value": 0.59375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.4226002486229513,
+      0.7448036516752926
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C15.attr.town",
+    "value": 0.53125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.364495171067256,
+      0.6913061290321587
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C15.attr.year",
+    "value": 0.71875,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.5462549055971416,
+      0.8443541950987609
+    ],
+    "n": 32
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C15.order.false_first",
+    "value": 0.4125,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.3110585760525498,
+      0.5219595966285038
+    ],
+    "n": 80
+  },
+  {
+    "id": "check.heldout.qwen2.5-7b.C15.order.true_first",
+    "value": 0.8375,
+    "abstract": false,
+    "source": {
+      "script": "analysis/02_checks.py"
+    },
+    "ci": [
+      0.7415709565050458,
+      0.9025018060108906
+    ],
+    "n": 80
+  }
+]

@@ -1,0 +1,184 @@
+{
+  "schema": "rops.runreport/1",
+  "conditions": {
+    "C4": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 144728,
+      "completion_tokens": 5903,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C1": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 133208,
+      "completion_tokens": 5575,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C0": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 39254,
+      "completion_tokens": 6196,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C2": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 165208,
+      "completion_tokens": 5546,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C3": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 190867,
+      "completion_tokens": 6166,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C5": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 165208,
+      "completion_tokens": 5484,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C6": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 138794,
+      "completion_tokens": 5588,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0015625
+    },
+    "C7": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 170794,
+      "completion_tokens": 5611,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C8": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 189528,
+      "completion_tokens": 4943,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C9": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 175752,
+      "completion_tokens": 5606,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C10": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 200072,
+      "completion_tokens": 5009,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C11": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 190168,
+      "completion_tokens": 6371,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0046875
+    },
+    "C12": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 165848,
+      "completion_tokens": 6660,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C13": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 171434,
+      "completion_tokens": 5890,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0
+    },
+    "C14": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 705,
+      "unpriced_calls": 0,
+      "prompt_tokens": 209497,
+      "completion_tokens": 7072,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.005673758865248227
+    },
+    "C15": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 176392,
+      "completion_tokens": 6425,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0015625
+    },
+    "C16": {
+      "runs": 8,
+      "errors": 0,
+      "calls": 640,
+      "unpriced_calls": 0,
+      "prompt_tokens": 200712,
+      "completion_tokens": 5850,
+      "cost_usd": 0.0,
+      "truncation_rate": 0.0046875
+    }
+  },
+  "pilot": {
+    "calls": 694,
+    "cost_usd": 0.0
+  },
+  "total": {
+    "calls": 10945,
+    "cost_usd": 0.0,
+    "truncation_rate": 0.0010963910461397899
+  }
+}
