@@ -4,7 +4,7 @@ Team discreet entry for the Apart Research AI x Epistemics sprint (13 to 15 Nove
 Track 2, example project 2.8.
 
 The question, conditions and decision rule are in `PREREG.md`. The experiment asks whether
-reliability labels on retrieved sources make a model more accurate, whether a forged
+reliability labels on retrieved sources improve a model's accuracy, whether a forged
 "verified" label makes it follow a false source, and whether checking labels in the harness
 (`harness/trustgate.py`) removes the effect.
 
