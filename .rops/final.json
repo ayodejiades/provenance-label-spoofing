@@ -1,13 +1,13 @@
 {
   "pdf": "paper/paper.pdf",
-  "sha256": "a37086a4ba6d445009c6ceb30546952f22d36f782cb51ff46d1bfa955233c45d",
-  "checked_at": "2026-11-15T09:22:09+00:00",
+  "sha256": "3775c06420560c4114ba131582336c11cb9c452d311c677676b1e7f2e882ecc3",
+  "checked_at": "2026-11-15T09:39:18+00:00",
   "checks": [
     {
       "id": 1,
       "name": "preflight",
       "status": "FAIL",
-      "detail": "preflight has 4 FAIL: pdf, git clean, links live",
+      "detail": "preflight has 3 FAIL: pdf, git clean, coverage",
       "fix": "rops-preflight ."
     },
     {
@@ -21,7 +21,7 @@
       "id": 3,
       "name": "same text",
       "status": "PASS",
-      "detail": "the PDF and paper/paper.md carry the same text (3165 words)",
+      "detail": "the PDF and paper/paper.md carry the same text (3274 words)",
       "fix": ""
     },
     {
@@ -42,7 +42,7 @@
       "id": 6,
       "name": "links live",
       "status": "PASS",
-      "detail": "2 code/preregistration link(s) load; could not confirm 1 other link(s), open them by hand: https://docs.google.com/document/d/1op1kekMSoTcYp5EhqKyZKbG4AB7jsFDJDgFyYD1wx4s/edit (401)",
+      "detail": "2 code/preregistration link(s) load",
       "fix": ""
     },
     {
